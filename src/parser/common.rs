@@ -1,9 +1,10 @@
+use nom::bytes::complete::take;
 use nom::bytes::complete::{take_while, take_while1};
 use nom::character::complete::line_ending;
-use nom::combinator::map;
+use nom::combinator::{map, peek};
 #[cfg(test)]
 use nom::error::ErrorKind;
-use nom::sequence::{terminated, tuple};
+use nom::sequence::{pair, terminated};
 #[cfg(test)]
 use nom::Err::Error;
 use nom::IResult;
@@ -15,13 +16,13 @@ fn is_simple(x: char) -> bool {
 /// Parse a Prometheus token
 /// https://prometheus.io/docs/concepts/data_model/#metric-names-and-labels
 /// Should match regex: `[a-zA-Z_:][a-zA-Z0-9_:]*`
-pub fn token_parser(i: &str) -> IResult<&str, String> {
-    let (input, (st, end)) = tuple((
+pub fn token_parser(i: &str) -> IResult<&str, &str> {
+    let (_, (st, end)) = peek(pair(
         take_while1(is_simple),
         take_while(|x| is_simple(x) || x.is_alphanumeric()),
     ))(i)?;
 
-    Ok((input, format!("{}{}", st, end)))
+    take(st.len() + end.len())(i)
 }
 
 /// Parse empty lines (lines with only whitespaces)
@@ -34,7 +35,7 @@ pub fn empty_line_parser(i: &str) -> IResult<&str, ()> {
 
 #[test]
 fn test_token_parser() {
-    let ok_token = |val: &str| assert_eq!(token_parser(val), Ok(("", val.to_string())));
+    let ok_token = |val: &str| assert_eq!(token_parser(val), Ok(("", val)));
     ok_token("abc_roo");
     ok_token("http_requests_total");
     ok_token("http_request_duration_seconds_bucket");
@@ -50,7 +51,7 @@ fn test_token_parser() {
         token_parser(&")3"),
         Err(Error((")3", ErrorKind::TakeWhile1)))
     );
-    assert_eq!(token_parser(&"a("), Ok(("(", "a".to_string())));
+    assert_eq!(token_parser(&"a("), Ok(("(", "a")));
 }
 
 #[test]

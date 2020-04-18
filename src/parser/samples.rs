@@ -15,9 +15,9 @@ use nom::IResult;
 use std::collections::HashMap;
 
 #[derive(Debug, PartialEq)]
-pub struct SampleEntry {
-    pub name: String,
-    pub labels: HashMap<String, String>,
+pub struct SampleEntry<'a> {
+    pub name: &'a str,
+    pub labels: HashMap<&'a str, String>,
     pub value: f64,
     pub timestamp_ms: Option<i64>,
 }
@@ -62,7 +62,7 @@ fn tag_value_parser(i: &str) -> IResult<&str, String> {
     )(i)
 }
 
-fn labels_parser(i: &str) -> IResult<&str, HashMap<String, String>> {
+fn labels_parser(i: &str) -> IResult<&str, HashMap<&str, String>> {
     let list_parser = terminated(
         separated_list(
             char(','),
@@ -72,7 +72,7 @@ fn labels_parser(i: &str) -> IResult<&str, HashMap<String, String>> {
     );
     let list_parser = map(
         list_parser,
-        |l: Vec<(String, String)>| -> HashMap<String, String> { l.into_iter().collect() },
+        |l: Vec<(&str, String)>| -> HashMap<&str, String> { l.into_iter().collect() },
     );
 
     map(opt(delimited(char('{'), list_parser, char('}'))), |v| {
@@ -161,10 +161,8 @@ fn test_tag_value_parser() {
 }
 
 #[cfg(test)]
-fn vec_to_hashmap(vec: Vec<(&str, &str)>) -> HashMap<String, String> {
-    vec.into_iter()
-        .map(|(a, b)| (a.to_string(), b.to_string()))
-        .collect()
+fn vec_to_hashmap<'a>(vec: Vec<(&'a str, &'a str)>) -> HashMap<&'a str, String> {
+    vec.into_iter().map(|(a, b)| (a, b.to_string())).collect()
 }
 
 #[test]
@@ -212,12 +210,7 @@ fn assert_sample(
     value: f64,
     timestamp: Option<i64>,
 ) {
-    assert_eq!(
-        res.name,
-        name.to_string(),
-        "sample name is different {:?}",
-        res
-    );
+    assert_eq!(res.name, name, "sample name is different {:?}", res);
     assert_eq!(
         res.labels,
         vec_to_hashmap(labels),

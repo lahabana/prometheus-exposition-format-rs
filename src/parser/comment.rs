@@ -13,14 +13,14 @@ use nom::Err::Error;
 use nom::IResult;
 
 #[derive(Debug, PartialEq)]
-pub enum CommentType {
-    Type(String, MetricType),
-    Help(String),
+pub enum CommentType<'a> {
+    Type(&'a str, MetricType),
+    Help(&'a str),
     Other,
 }
 
 /// Parse comments that starts with "# TYPE"
-fn type_parser(i: &str) -> IResult<&str, (String, MetricType)> {
+fn type_parser(i: &str) -> IResult<&str, (&str, MetricType)> {
     let metric_parser = map(
         opt(preceded(
             space1,
@@ -46,14 +46,11 @@ fn other_comment_parser(i: &str) -> IResult<&str, ()> {
 }
 
 /// Parse comments that starts with "# HELP"
-fn help_parser(i: &str) -> IResult<&str, String> {
-    map(
-        delimited(
-            tuple((tag("#"), space1, tag("HELP"), space1)),
-            not_line_ending,
-            newline,
-        ),
-        |x: &str| x.to_string(),
+fn help_parser(i: &str) -> IResult<&str, &str> {
+    delimited(
+        tuple((tag("#"), space1, tag("HELP"), space1)),
+        not_line_ending,
+        newline,
     )(i)
 }
 
@@ -73,42 +70,21 @@ pub fn comment_parser(i: &str) -> IResult<&str, CommentType> {
 fn test_type_parser() {
     assert_eq!(
         type_parser("# TYPE http_request_duration_seconds histogram\n"),
-        Ok((
-            "",
-            (
-                "http_request_duration_seconds".to_string(),
-                MetricType::Histogram
-            )
-        ))
+        Ok(("", ("http_request_duration_seconds", MetricType::Histogram)))
     );
     assert_eq!(
         type_parser("# TYPE http_request_duration_seconds\n"),
-        Ok((
-            "",
-            (
-                "http_request_duration_seconds".to_string(),
-                MetricType::Untyped
-            )
-        ))
+        Ok(("", ("http_request_duration_seconds", MetricType::Untyped)))
     );
     assert_eq!(
         type_parser("# TYPE http_request_duration_seconds   \n"),
-        Ok((
-            "",
-            (
-                "http_request_duration_seconds".to_string(),
-                MetricType::Untyped
-            )
-        ))
+        Ok(("", ("http_request_duration_seconds", MetricType::Untyped)))
     );
     assert_eq!(
         type_parser("# TYPE http_request_duration_seconds   \nfoo"),
         Ok((
             "foo",
-            (
-                "http_request_duration_seconds".to_string(),
-                MetricType::Untyped
-            )
+            ("http_request_duration_seconds", MetricType::Untyped)
         ))
     );
     assert_eq!(
@@ -148,7 +124,7 @@ fn test_help_parser() {
     );
     assert_eq!(
         help_parser("# HELP http_request_duration_seconds histogram\nfoo"),
-        Ok(("foo", "http_request_duration_seconds histogram".to_string()))
+        Ok(("foo", "http_request_duration_seconds histogram"))
     );
     assert_eq!(
         help_parser("# This is a comment and we don't care about it\n"),
@@ -171,16 +147,13 @@ fn test_comment_parser() {
     );
     assert_eq!(
         comment_parser("# HELP some info\n"),
-        Ok(("", CommentType::Help("some info".to_string())))
+        Ok(("", CommentType::Help("some info")))
     );
     assert_eq!(
         comment_parser("# TYPE http_request_duration_seconds histogram\n"),
         Ok((
             "",
-            CommentType::Type(
-                "http_request_duration_seconds".to_string(),
-                MetricType::Histogram
-            )
+            CommentType::Type("http_request_duration_seconds", MetricType::Histogram,)
         ))
     );
 }
