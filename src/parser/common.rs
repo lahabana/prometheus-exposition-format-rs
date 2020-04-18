@@ -1,7 +1,9 @@
 use nom::bytes::complete::{take_while, take_while1};
+use nom::character::complete::line_ending;
+use nom::combinator::map;
 #[cfg(test)]
 use nom::error::ErrorKind;
-use nom::sequence::tuple;
+use nom::sequence::{terminated, tuple};
 #[cfg(test)]
 use nom::Err::Error;
 use nom::IResult;
@@ -20,6 +22,14 @@ pub fn token_parser(i: &str) -> IResult<&str, String> {
     ))(i)?;
 
     Ok((input, format!("{}{}", st, end)))
+}
+
+/// Parse empty lines (lines with only whitespaces)
+pub fn empty_line_parser(i: &str) -> IResult<&str, ()> {
+    map(
+        terminated(take_while(|c| c == ' ' || c == '\t'), line_ending),
+        |_| (),
+    )(i)
 }
 
 #[test]
@@ -41,4 +51,16 @@ fn test_token_parser() {
         Err(Error((")3", ErrorKind::TakeWhile1)))
     );
     assert_eq!(token_parser(&"a("), Ok(("(", "a".to_string())));
+}
+
+#[test]
+fn test_empty_line_parser() {
+    assert_eq!(empty_line_parser("      \n"), Ok(("", ())));
+    assert_eq!(empty_line_parser("\t\n"), Ok(("", ())));
+    assert_eq!(empty_line_parser(" \t \n"), Ok(("", ())));
+    assert_eq!(empty_line_parser("      \n     \n"), Ok(("     \n", ())));
+    assert_eq!(
+        empty_line_parser("      "),
+        Err(Error(("", ErrorKind::CrLf)))
+    );
 }
