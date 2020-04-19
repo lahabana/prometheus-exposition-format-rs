@@ -1,7 +1,7 @@
 extern crate prometheus_exposition_format_rs;
 
-use prometheus_exposition_format_rs::parser::parse_complete;
-use prometheus_exposition_format_rs::parser::types::{Err, Metric};
+use prometheus_exposition_format_rs::parse_complete;
+use prometheus_exposition_format_rs::types::{Err, Metric};
 use std::fs;
 
 const PATH: &str = "fixtures";

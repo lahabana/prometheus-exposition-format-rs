@@ -1,4 +1,4 @@
-use crate::parser::common::token_parser;
+use crate::common::token_parser;
 #[cfg(test)]
 use assert_approx_eq::assert_approx_eq;
 use nom::branch::alt;
@@ -91,15 +91,6 @@ fn labels_parser(i: &str) -> IResult<&str, HashMap<&str, String>> {
 ///
 /// `i` - A input string to parse
 ///
-/// # Example
-///
-/// ```
-/// use prometheus_exposition_format_rs::parser::samples::parse_sample;
-/// let res = parse_sample("http_requests_total{method=\"post\",code=\"200\"} 1027 1395066363000\n").unwrap();
-///
-/// assert_eq!("http_requests_total", res.1.name);
-/// assert_eq!("post", res.1.labels["method"]);
-/// ```
 pub fn parse_sample(i: &str) -> IResult<&str, SampleEntry> {
     let (input, (name, labels, value, timestamp_ms)) = terminated(
         tuple((

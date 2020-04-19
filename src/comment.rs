@@ -1,5 +1,5 @@
-use crate::parser::common::token_parser;
-use crate::parser::types::MetricType;
+use crate::common::token_parser;
+use crate::types::MetricType;
 use nom::branch::alt;
 use nom::bytes::complete::tag;
 use nom::character::complete::not_line_ending;
