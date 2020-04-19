@@ -1,0 +1,2184 @@
+# TYPE chain_account_commits_count counter
+chain_account_commits_count 200585
+
+# TYPE chain_account_commits summary
+chain_account_commits {quantile="0.5"} 0
+
+# TYPE chain_account_commits summary
+chain_account_commits {quantile="0.75"} 0
+
+# TYPE chain_account_commits summary
+chain_account_commits {quantile="0.95"} 0
+
+# TYPE chain_account_commits summary
+chain_account_commits {quantile="0.99"} 0
+
+# TYPE chain_account_commits summary
+chain_account_commits {quantile="0.999"} 0
+
+# TYPE chain_account_commits summary
+chain_account_commits {quantile="0.9999"} 0
+
+# TYPE chain_account_hashes_count counter
+chain_account_hashes_count 200585
+
+# TYPE chain_account_hashes summary
+chain_account_hashes {quantile="0.5"} 0
+
+# TYPE chain_account_hashes summary
+chain_account_hashes {quantile="0.75"} 0
+
+# TYPE chain_account_hashes summary
+chain_account_hashes {quantile="0.95"} 0
+
+# TYPE chain_account_hashes summary
+chain_account_hashes {quantile="0.99"} 0
+
+# TYPE chain_account_hashes summary
+chain_account_hashes {quantile="0.999"} 0
+
+# TYPE chain_account_hashes summary
+chain_account_hashes {quantile="0.9999"} 0
+
+# TYPE chain_account_reads_count counter
+chain_account_reads_count 200585
+
+# TYPE chain_account_reads summary
+chain_account_reads {quantile="0.5"} 0
+
+# TYPE chain_account_reads summary
+chain_account_reads {quantile="0.75"} 0
+
+# TYPE chain_account_reads summary
+chain_account_reads {quantile="0.95"} 0
+
+# TYPE chain_account_reads summary
+chain_account_reads {quantile="0.99"} 0
+
+# TYPE chain_account_reads summary
+chain_account_reads {quantile="0.999"} 0
+
+# TYPE chain_account_reads summary
+chain_account_reads {quantile="0.9999"} 0
+
+# TYPE chain_account_updates_count counter
+chain_account_updates_count 200585
+
+# TYPE chain_account_updates summary
+chain_account_updates {quantile="0.5"} 0
+
+# TYPE chain_account_updates summary
+chain_account_updates {quantile="0.75"} 0
+
+# TYPE chain_account_updates summary
+chain_account_updates {quantile="0.95"} 0
+
+# TYPE chain_account_updates summary
+chain_account_updates {quantile="0.99"} 0
+
+# TYPE chain_account_updates summary
+chain_account_updates {quantile="0.999"} 0
+
+# TYPE chain_account_updates summary
+chain_account_updates {quantile="0.9999"} 0
+
+# TYPE chain_execution_count counter
+chain_execution_count 200585
+
+# TYPE chain_execution summary
+chain_execution {quantile="0.5"} 2.618342e+06
+
+# TYPE chain_execution summary
+chain_execution {quantile="0.75"} 3.3588595e+06
+
+# TYPE chain_execution summary
+chain_execution {quantile="0.95"} 6.368409449999998e+06
+
+# TYPE chain_execution summary
+chain_execution {quantile="0.99"} 7.954832360000001e+06
+
+# TYPE chain_execution summary
+chain_execution {quantile="0.999"} 1.3413965108000012e+07
+
+# TYPE chain_execution summary
+chain_execution {quantile="0.9999"} 1.351029e+07
+
+# TYPE chain_head_block gauge
+chain_head_block 200585
+
+# TYPE chain_head_header gauge
+chain_head_header 200585
+
+# TYPE chain_head_receipt gauge
+chain_head_receipt 200585
+
+# TYPE chain_inserts_count counter
+chain_inserts_count 200585
+
+# TYPE chain_inserts summary
+chain_inserts {quantile="0.5"} 4.718122e+06
+
+# TYPE chain_inserts summary
+chain_inserts {quantile="0.75"} 5.98690975e+06
+
+# TYPE chain_inserts summary
+chain_inserts {quantile="0.95"} 8.823238049999999e+06
+
+# TYPE chain_inserts summary
+chain_inserts {quantile="0.99"} 1.0934729700000001e+07
+
+# TYPE chain_inserts summary
+chain_inserts {quantile="0.999"} 1.6959486338000007e+07
+
+# TYPE chain_inserts summary
+chain_inserts {quantile="0.9999"} 1.7013011e+07
+
+# TYPE chain_prefetch_executes_count counter
+chain_prefetch_executes_count 165844
+
+# TYPE chain_prefetch_executes summary
+chain_prefetch_executes {quantile="0.5"} 4.1445265e+06
+
+# TYPE chain_prefetch_executes summary
+chain_prefetch_executes {quantile="0.75"} 6.38247825e+06
+
+# TYPE chain_prefetch_executes summary
+chain_prefetch_executes {quantile="0.95"} 1.1272516799999993e+07
+
+# TYPE chain_prefetch_executes summary
+chain_prefetch_executes {quantile="0.99"} 2.2914712970000084e+07
+
+# TYPE chain_prefetch_executes summary
+chain_prefetch_executes {quantile="0.999"} 7.754634449600011e+07
+
+# TYPE chain_prefetch_executes summary
+chain_prefetch_executes {quantile="0.9999"} 7.8485068e+07
+
+# TYPE chain_prefetch_interrupts gauge
+chain_prefetch_interrupts 55640
+
+# TYPE chain_reorg_add gauge
+chain_reorg_add 0
+
+# TYPE chain_reorg_drop gauge
+chain_reorg_drop 0
+
+# TYPE chain_storage_commits_count counter
+chain_storage_commits_count 200585
+
+# TYPE chain_storage_commits summary
+chain_storage_commits {quantile="0.5"} 0
+
+# TYPE chain_storage_commits summary
+chain_storage_commits {quantile="0.75"} 0
+
+# TYPE chain_storage_commits summary
+chain_storage_commits {quantile="0.95"} 0
+
+# TYPE chain_storage_commits summary
+chain_storage_commits {quantile="0.99"} 0
+
+# TYPE chain_storage_commits summary
+chain_storage_commits {quantile="0.999"} 0
+
+# TYPE chain_storage_commits summary
+chain_storage_commits {quantile="0.9999"} 0
+
+# TYPE chain_storage_hashes_count counter
+chain_storage_hashes_count 200585
+
+# TYPE chain_storage_hashes summary
+chain_storage_hashes {quantile="0.5"} 0
+
+# TYPE chain_storage_hashes summary
+chain_storage_hashes {quantile="0.75"} 0
+
+# TYPE chain_storage_hashes summary
+chain_storage_hashes {quantile="0.95"} 0
+
+# TYPE chain_storage_hashes summary
+chain_storage_hashes {quantile="0.99"} 0
+
+# TYPE chain_storage_hashes summary
+chain_storage_hashes {quantile="0.999"} 0
+
+# TYPE chain_storage_hashes summary
+chain_storage_hashes {quantile="0.9999"} 0
+
+# TYPE chain_storage_reads_count counter
+chain_storage_reads_count 200585
+
+# TYPE chain_storage_reads summary
+chain_storage_reads {quantile="0.5"} 0
+
+# TYPE chain_storage_reads summary
+chain_storage_reads {quantile="0.75"} 0
+
+# TYPE chain_storage_reads summary
+chain_storage_reads {quantile="0.95"} 0
+
+# TYPE chain_storage_reads summary
+chain_storage_reads {quantile="0.99"} 0
+
+# TYPE chain_storage_reads summary
+chain_storage_reads {quantile="0.999"} 0
+
+# TYPE chain_storage_reads summary
+chain_storage_reads {quantile="0.9999"} 0
+
+# TYPE chain_storage_updates_count counter
+chain_storage_updates_count 200585
+
+# TYPE chain_storage_updates summary
+chain_storage_updates {quantile="0.5"} 0
+
+# TYPE chain_storage_updates summary
+chain_storage_updates {quantile="0.75"} 0
+
+# TYPE chain_storage_updates summary
+chain_storage_updates {quantile="0.95"} 0
+
+# TYPE chain_storage_updates summary
+chain_storage_updates {quantile="0.99"} 0
+
+# TYPE chain_storage_updates summary
+chain_storage_updates {quantile="0.999"} 0
+
+# TYPE chain_storage_updates summary
+chain_storage_updates {quantile="0.9999"} 0
+
+# TYPE chain_validation_count counter
+chain_validation_count 200585
+
+# TYPE chain_validation summary
+chain_validation {quantile="0.5"} 45664.5
+
+# TYPE chain_validation summary
+chain_validation {quantile="0.75"} 84960.75
+
+# TYPE chain_validation summary
+chain_validation {quantile="0.95"} 208224.24999999997
+
+# TYPE chain_validation summary
+chain_validation {quantile="0.99"} 674082.4100000006
+
+# TYPE chain_validation summary
+chain_validation {quantile="0.999"} 1.0856242790000006e+06
+
+# TYPE chain_validation summary
+chain_validation {quantile="0.9999"} 1.090402e+06
+
+# TYPE chain_write_count counter
+chain_write_count 200585
+
+# TYPE chain_write summary
+chain_write {quantile="0.5"} 1.8109315e+06
+
+# TYPE chain_write summary
+chain_write {quantile="0.75"} 2.28718375e+06
+
+# TYPE chain_write summary
+chain_write {quantile="0.95"} 3.2063822999999984e+06
+
+# TYPE chain_write summary
+chain_write {quantile="0.99"} 4.081325490000002e+06
+
+# TYPE chain_write summary
+chain_write {quantile="0.999"} 9.613219464000002e+06
+
+# TYPE chain_write summary
+chain_write {quantile="0.9999"} 9.622789e+06
+
+# TYPE consensus_istanbul_backend_finalize_count counter
+consensus_istanbul_backend_finalize_count 234822
+
+# TYPE consensus_istanbul_backend_finalize summary
+consensus_istanbul_backend_finalize {quantile="0.5"} 1.6078185e+06
+
+# TYPE consensus_istanbul_backend_finalize summary
+consensus_istanbul_backend_finalize {quantile="0.75"} 1.764173e+06
+
+# TYPE consensus_istanbul_backend_finalize summary
+consensus_istanbul_backend_finalize {quantile="0.95"} 2.1693009e+06
+
+# TYPE consensus_istanbul_backend_finalize summary
+consensus_istanbul_backend_finalize {quantile="0.99"} 2.7538084700000016e+06
+
+# TYPE consensus_istanbul_backend_finalize summary
+consensus_istanbul_backend_finalize {quantile="0.999"} 4.655543269000003e+06
+
+# TYPE consensus_istanbul_backend_finalize summary
+consensus_istanbul_backend_finalize {quantile="0.9999"} 4.680061e+06
+
+# TYPE consensus_istanbul_backend_rewards_count counter
+consensus_istanbul_backend_rewards_count 13
+
+# TYPE consensus_istanbul_backend_rewards summary
+consensus_istanbul_backend_rewards {quantile="0.5"} 4.10278772e+08
+
+# TYPE consensus_istanbul_backend_rewards summary
+consensus_istanbul_backend_rewards {quantile="0.75"} 5.6405448e+08
+
+# TYPE consensus_istanbul_backend_rewards summary
+consensus_istanbul_backend_rewards {quantile="0.95"} 6.79981251e+08
+
+# TYPE consensus_istanbul_backend_rewards summary
+consensus_istanbul_backend_rewards {quantile="0.99"} 6.79981251e+08
+
+# TYPE consensus_istanbul_backend_rewards summary
+consensus_istanbul_backend_rewards {quantile="0.999"} 6.79981251e+08
+
+# TYPE consensus_istanbul_backend_rewards summary
+consensus_istanbul_backend_rewards {quantile="0.9999"} 6.79981251e+08
+
+# TYPE consensus_istanbul_blocks_elected gauge
+consensus_istanbul_blocks_elected 34696
+
+# TYPE consensus_istanbul_blocks_missedbyus gauge
+consensus_istanbul_blocks_missedbyus 769
+
+# TYPE consensus_istanbul_blocks_missedrounds gauge
+consensus_istanbul_blocks_missedrounds 2030
+
+# TYPE consensus_istanbul_blocks_signedbyus gauge
+consensus_istanbul_blocks_signedbyus 33927
+
+# TYPE consensus_istanbul_blocks_totalsigs gauge
+consensus_istanbul_blocks_totalsigs 47
+
+# TYPE consensus_istanbul_core_consensus_count counter
+consensus_istanbul_core_consensus_count 0
+
+# TYPE consensus_istanbul_core_consensus summary
+consensus_istanbul_core_consensus {quantile="0.5"} 0
+
+# TYPE consensus_istanbul_core_consensus summary
+consensus_istanbul_core_consensus {quantile="0.75"} 0
+
+# TYPE consensus_istanbul_core_consensus summary
+consensus_istanbul_core_consensus {quantile="0.95"} 0
+
+# TYPE consensus_istanbul_core_consensus summary
+consensus_istanbul_core_consensus {quantile="0.99"} 0
+
+# TYPE consensus_istanbul_core_consensus summary
+consensus_istanbul_core_consensus {quantile="0.999"} 0
+
+# TYPE consensus_istanbul_core_consensus summary
+consensus_istanbul_core_consensus {quantile="0.9999"} 0
+
+# TYPE contract_comm_systemcall_blockGasLimit_count counter
+contract_comm_systemcall_blockGasLimit_count 716597
+
+# TYPE contract_comm_systemcall_blockGasLimit summary
+contract_comm_systemcall_blockGasLimit {quantile="0.5"} 193208.5
+
+# TYPE contract_comm_systemcall_blockGasLimit summary
+contract_comm_systemcall_blockGasLimit {quantile="0.75"} 213721.25
+
+# TYPE contract_comm_systemcall_blockGasLimit summary
+contract_comm_systemcall_blockGasLimit {quantile="0.95"} 293733.7
+
+# TYPE contract_comm_systemcall_blockGasLimit summary
+contract_comm_systemcall_blockGasLimit {quantile="0.99"} 552175.880000001
+
+# TYPE contract_comm_systemcall_blockGasLimit summary
+contract_comm_systemcall_blockGasLimit {quantile="0.999"} 1.8284633930000023e+06
+
+# TYPE contract_comm_systemcall_blockGasLimit summary
+contract_comm_systemcall_blockGasLimit {quantile="0.9999"} 1.846614e+06
+
+# TYPE contract_comm_systemcall_calculateTargetEpochRewards_count counter
+contract_comm_systemcall_calculateTargetEpochRewards_count 11
+
+# TYPE contract_comm_systemcall_calculateTargetEpochRewards summary
+contract_comm_systemcall_calculateTargetEpochRewards {quantile="0.5"} 2.849569e+06
+
+# TYPE contract_comm_systemcall_calculateTargetEpochRewards summary
+contract_comm_systemcall_calculateTargetEpochRewards {quantile="0.75"} 5.174891e+06
+
+# TYPE contract_comm_systemcall_calculateTargetEpochRewards summary
+contract_comm_systemcall_calculateTargetEpochRewards {quantile="0.95"} 2.3861396e+07
+
+# TYPE contract_comm_systemcall_calculateTargetEpochRewards summary
+contract_comm_systemcall_calculateTargetEpochRewards {quantile="0.99"} 2.3861396e+07
+
+# TYPE contract_comm_systemcall_calculateTargetEpochRewards summary
+contract_comm_systemcall_calculateTargetEpochRewards {quantile="0.999"} 2.3861396e+07
+
+# TYPE contract_comm_systemcall_calculateTargetEpochRewards summary
+contract_comm_systemcall_calculateTargetEpochRewards {quantile="0.9999"} 2.3861396e+07
+
+# TYPE contract_comm_systemcall_carbonOffsettingPartner_count counter
+contract_comm_systemcall_carbonOffsettingPartner_count 11
+
+# TYPE contract_comm_systemcall_carbonOffsettingPartner summary
+contract_comm_systemcall_carbonOffsettingPartner {quantile="0.5"} 215660
+
+# TYPE contract_comm_systemcall_carbonOffsettingPartner summary
+contract_comm_systemcall_carbonOffsettingPartner {quantile="0.75"} 245116
+
+# TYPE contract_comm_systemcall_carbonOffsettingPartner summary
+contract_comm_systemcall_carbonOffsettingPartner {quantile="0.95"} 302145
+
+# TYPE contract_comm_systemcall_carbonOffsettingPartner summary
+contract_comm_systemcall_carbonOffsettingPartner {quantile="0.99"} 302145
+
+# TYPE contract_comm_systemcall_carbonOffsettingPartner summary
+contract_comm_systemcall_carbonOffsettingPartner {quantile="0.999"} 302145
+
+# TYPE contract_comm_systemcall_carbonOffsettingPartner summary
+contract_comm_systemcall_carbonOffsettingPartner {quantile="0.9999"} 302145
+
+# TYPE contract_comm_systemcall_distributeEpochPaymentsFromSigner_count counter
+contract_comm_systemcall_distributeEpochPaymentsFromSigner_count 511
+
+# TYPE contract_comm_systemcall_distributeEpochPaymentsFromSigner summary
+contract_comm_systemcall_distributeEpochPaymentsFromSigner {quantile="0.5"} 2.897119e+06
+
+# TYPE contract_comm_systemcall_distributeEpochPaymentsFromSigner summary
+contract_comm_systemcall_distributeEpochPaymentsFromSigner {quantile="0.75"} 3.299379e+06
+
+# TYPE contract_comm_systemcall_distributeEpochPaymentsFromSigner summary
+contract_comm_systemcall_distributeEpochPaymentsFromSigner {quantile="0.95"} 4.597227e+06
+
+# TYPE contract_comm_systemcall_distributeEpochPaymentsFromSigner summary
+contract_comm_systemcall_distributeEpochPaymentsFromSigner {quantile="0.99"} 9.218240639999999e+06
+
+# TYPE contract_comm_systemcall_distributeEpochPaymentsFromSigner summary
+contract_comm_systemcall_distributeEpochPaymentsFromSigner {quantile="0.999"} 2.1887737e+07
+
+# TYPE contract_comm_systemcall_distributeEpochPaymentsFromSigner summary
+contract_comm_systemcall_distributeEpochPaymentsFromSigner {quantile="0.9999"} 2.1887737e+07
+
+# TYPE contract_comm_systemcall_distributeEpochRewards_count counter
+contract_comm_systemcall_distributeEpochRewards_count 511
+
+# TYPE contract_comm_systemcall_distributeEpochRewards summary
+contract_comm_systemcall_distributeEpochRewards {quantile="0.5"} 926689
+
+# TYPE contract_comm_systemcall_distributeEpochRewards summary
+contract_comm_systemcall_distributeEpochRewards {quantile="0.75"} 1.084582e+06
+
+# TYPE contract_comm_systemcall_distributeEpochRewards summary
+contract_comm_systemcall_distributeEpochRewards {quantile="0.95"} 1.6187371999999986e+06
+
+# TYPE contract_comm_systemcall_distributeEpochRewards summary
+contract_comm_systemcall_distributeEpochRewards {quantile="0.99"} 1.130739347999999e+07
+
+# TYPE contract_comm_systemcall_distributeEpochRewards summary
+contract_comm_systemcall_distributeEpochRewards {quantile="0.999"} 1.949594e+07
+
+# TYPE contract_comm_systemcall_distributeEpochRewards summary
+contract_comm_systemcall_distributeEpochRewards {quantile="0.9999"} 1.949594e+07
+
+# TYPE contract_comm_systemcall_electNValidatorSigners_count counter
+contract_comm_systemcall_electNValidatorSigners_count 2871
+
+# TYPE contract_comm_systemcall_electNValidatorSigners summary
+contract_comm_systemcall_electNValidatorSigners {quantile="0.5"} 4.5484295e+07
+
+# TYPE contract_comm_systemcall_electNValidatorSigners summary
+contract_comm_systemcall_electNValidatorSigners {quantile="0.75"} 4.7033267e+07
+
+# TYPE contract_comm_systemcall_electNValidatorSigners summary
+contract_comm_systemcall_electNValidatorSigners {quantile="0.95"} 5.033823119999999e+07
+
+# TYPE contract_comm_systemcall_electNValidatorSigners summary
+contract_comm_systemcall_electNValidatorSigners {quantile="0.99"} 6.764817093000011e+07
+
+# TYPE contract_comm_systemcall_electNValidatorSigners summary
+contract_comm_systemcall_electNValidatorSigners {quantile="0.999"} 1.9437302064000016e+08
+
+# TYPE contract_comm_systemcall_electNValidatorSigners summary
+contract_comm_systemcall_electNValidatorSigners {quantile="0.9999"} 1.95561639e+08
+
+# TYPE contract_comm_systemcall_electValidatorSigners_count counter
+contract_comm_systemcall_electValidatorSigners_count 2
+
+# TYPE contract_comm_systemcall_electValidatorSigners summary
+contract_comm_systemcall_electValidatorSigners {quantile="0.5"} 4.42496675e+07
+
+# TYPE contract_comm_systemcall_electValidatorSigners summary
+contract_comm_systemcall_electValidatorSigners {quantile="0.75"} 4.7318173e+07
+
+# TYPE contract_comm_systemcall_electValidatorSigners summary
+contract_comm_systemcall_electValidatorSigners {quantile="0.95"} 4.7318173e+07
+
+# TYPE contract_comm_systemcall_electValidatorSigners summary
+contract_comm_systemcall_electValidatorSigners {quantile="0.99"} 4.7318173e+07
+
+# TYPE contract_comm_systemcall_electValidatorSigners summary
+contract_comm_systemcall_electValidatorSigners {quantile="0.999"} 4.7318173e+07
+
+# TYPE contract_comm_systemcall_electValidatorSigners summary
+contract_comm_systemcall_electValidatorSigners {quantile="0.9999"} 4.7318173e+07
+
+# TYPE contract_comm_systemcall_getElectableValidators_count counter
+contract_comm_systemcall_getElectableValidators_count 2871
+
+# TYPE contract_comm_systemcall_getElectableValidators summary
+contract_comm_systemcall_getElectableValidators {quantile="0.5"} 392098.5
+
+# TYPE contract_comm_systemcall_getElectableValidators summary
+contract_comm_systemcall_getElectableValidators {quantile="0.75"} 419425.75
+
+# TYPE contract_comm_systemcall_getElectableValidators summary
+contract_comm_systemcall_getElectableValidators {quantile="0.95"} 533201.0499999999
+
+# TYPE contract_comm_systemcall_getElectableValidators summary
+contract_comm_systemcall_getElectableValidators {quantile="0.99"} 615295.42
+
+# TYPE contract_comm_systemcall_getElectableValidators summary
+contract_comm_systemcall_getElectableValidators {quantile="0.999"} 2.3390338790000053e+06
+
+# TYPE contract_comm_systemcall_getElectableValidators summary
+contract_comm_systemcall_getElectableValidators {quantile="0.9999"} 2.382544e+06
+
+# TYPE contract_comm_systemcall_getGasPriceMinimum_count counter
+contract_comm_systemcall_getGasPriceMinimum_count 74572
+
+# TYPE contract_comm_systemcall_getGasPriceMinimum summary
+contract_comm_systemcall_getGasPriceMinimum {quantile="0.5"} 373595
+
+# TYPE contract_comm_systemcall_getGasPriceMinimum summary
+contract_comm_systemcall_getGasPriceMinimum {quantile="0.75"} 414965.5
+
+# TYPE contract_comm_systemcall_getGasPriceMinimum summary
+contract_comm_systemcall_getGasPriceMinimum {quantile="0.95"} 520831.69999999955
+
+# TYPE contract_comm_systemcall_getGasPriceMinimum summary
+contract_comm_systemcall_getGasPriceMinimum {quantile="0.99"} 849122.7400000005
+
+# TYPE contract_comm_systemcall_getGasPriceMinimum summary
+contract_comm_systemcall_getGasPriceMinimum {quantile="0.999"} 7.828922878000022e+06
+
+# TYPE contract_comm_systemcall_getGasPriceMinimum summary
+contract_comm_systemcall_getGasPriceMinimum {quantile="0.9999"} 8.002123e+06
+
+# TYPE contract_comm_systemcall_getGroupEpochRewards_count counter
+contract_comm_systemcall_getGroupEpochRewards_count 511
+
+# TYPE contract_comm_systemcall_getGroupEpochRewards summary
+contract_comm_systemcall_getGroupEpochRewards {quantile="0.5"} 1.735464e+06
+
+# TYPE contract_comm_systemcall_getGroupEpochRewards summary
+contract_comm_systemcall_getGroupEpochRewards {quantile="0.75"} 2.041882e+06
+
+# TYPE contract_comm_systemcall_getGroupEpochRewards summary
+contract_comm_systemcall_getGroupEpochRewards {quantile="0.95"} 2.958385199999997e+06
+
+# TYPE contract_comm_systemcall_getGroupEpochRewards summary
+contract_comm_systemcall_getGroupEpochRewards {quantile="0.99"} 1.027278008e+07
+
+# TYPE contract_comm_systemcall_getGroupEpochRewards summary
+contract_comm_systemcall_getGroupEpochRewards {quantile="0.999"} 1.8612287e+07
+
+# TYPE contract_comm_systemcall_getGroupEpochRewards summary
+contract_comm_systemcall_getGroupEpochRewards {quantile="0.9999"} 1.8612287e+07
+
+# TYPE contract_comm_systemcall_getMembershipInLastEpochFromSigner_count counter
+contract_comm_systemcall_getMembershipInLastEpochFromSigner_count 511
+
+# TYPE contract_comm_systemcall_getMembershipInLastEpochFromSigner summary
+contract_comm_systemcall_getMembershipInLastEpochFromSigner {quantile="0.5"} 748850
+
+# TYPE contract_comm_systemcall_getMembershipInLastEpochFromSigner summary
+contract_comm_systemcall_getMembershipInLastEpochFromSigner {quantile="0.75"} 829981
+
+# TYPE contract_comm_systemcall_getMembershipInLastEpochFromSigner summary
+contract_comm_systemcall_getMembershipInLastEpochFromSigner {quantile="0.95"} 996774.7999999999
+
+# TYPE contract_comm_systemcall_getMembershipInLastEpochFromSigner summary
+contract_comm_systemcall_getMembershipInLastEpochFromSigner {quantile="0.99"} 2.4803151199999982e+06
+
+# TYPE contract_comm_systemcall_getMembershipInLastEpochFromSigner summary
+contract_comm_systemcall_getMembershipInLastEpochFromSigner {quantile="0.999"} 4.412005e+06
+
+# TYPE contract_comm_systemcall_getMembershipInLastEpochFromSigner summary
+contract_comm_systemcall_getMembershipInLastEpochFromSigner {quantile="0.9999"} 4.412005e+06
+
+# TYPE contract_comm_systemcall_getMinimumClientVersion_count counter
+contract_comm_systemcall_getMinimumClientVersion_count 2958
+
+# TYPE contract_comm_systemcall_getMinimumClientVersion summary
+contract_comm_systemcall_getMinimumClientVersion {quantile="0.5"} 236293
+
+# TYPE contract_comm_systemcall_getMinimumClientVersion summary
+contract_comm_systemcall_getMinimumClientVersion {quantile="0.75"} 265506.5
+
+# TYPE contract_comm_systemcall_getMinimumClientVersion summary
+contract_comm_systemcall_getMinimumClientVersion {quantile="0.95"} 344972.2499999999
+
+# TYPE contract_comm_systemcall_getMinimumClientVersion summary
+contract_comm_systemcall_getMinimumClientVersion {quantile="0.99"} 448434.9100000004
+
+# TYPE contract_comm_systemcall_getMinimumClientVersion summary
+contract_comm_systemcall_getMinimumClientVersion {quantile="0.999"} 886029.2020000011
+
+# TYPE contract_comm_systemcall_getMinimumClientVersion summary
+contract_comm_systemcall_getMinimumClientVersion {quantile="0.9999"} 894615
+
+# TYPE contract_comm_systemcall_getRegisteredValidators_count counter
+contract_comm_systemcall_getRegisteredValidators_count 4382
+
+# TYPE contract_comm_systemcall_getRegisteredValidators summary
+contract_comm_systemcall_getRegisteredValidators {quantile="0.5"} 1.344748e+06
+
+# TYPE contract_comm_systemcall_getRegisteredValidators summary
+contract_comm_systemcall_getRegisteredValidators {quantile="0.75"} 1.4926105e+06
+
+# TYPE contract_comm_systemcall_getRegisteredValidators summary
+contract_comm_systemcall_getRegisteredValidators {quantile="0.95"} 1.8126161999999997e+06
+
+# TYPE contract_comm_systemcall_getRegisteredValidators summary
+contract_comm_systemcall_getRegisteredValidators {quantile="0.99"} 2.6138510500000003e+06
+
+# TYPE contract_comm_systemcall_getRegisteredValidators summary
+contract_comm_systemcall_getRegisteredValidators {quantile="0.999"} 5.568487403000003e+06
+
+# TYPE contract_comm_systemcall_getRegisteredValidators summary
+contract_comm_systemcall_getRegisteredValidators {quantile="0.9999"} 5.58975e+06
+
+# TYPE contract_comm_systemcall_getTotalVotesForEligibleValidatorGroups_count counter
+contract_comm_systemcall_getTotalVotesForEligibleValidatorGroups_count 11
+
+# TYPE contract_comm_systemcall_getTotalVotesForEligibleValidatorGroups summary
+contract_comm_systemcall_getTotalVotesForEligibleValidatorGroups {quantile="0.5"} 3.491241e+06
+
+# TYPE contract_comm_systemcall_getTotalVotesForEligibleValidatorGroups summary
+contract_comm_systemcall_getTotalVotesForEligibleValidatorGroups {quantile="0.75"} 3.846964e+06
+
+# TYPE contract_comm_systemcall_getTotalVotesForEligibleValidatorGroups summary
+contract_comm_systemcall_getTotalVotesForEligibleValidatorGroups {quantile="0.95"} 7.539501e+06
+
+# TYPE contract_comm_systemcall_getTotalVotesForEligibleValidatorGroups summary
+contract_comm_systemcall_getTotalVotesForEligibleValidatorGroups {quantile="0.99"} 7.539501e+06
+
+# TYPE contract_comm_systemcall_getTotalVotesForEligibleValidatorGroups summary
+contract_comm_systemcall_getTotalVotesForEligibleValidatorGroups {quantile="0.999"} 7.539501e+06
+
+# TYPE contract_comm_systemcall_getTotalVotesForEligibleValidatorGroups summary
+contract_comm_systemcall_getTotalVotesForEligibleValidatorGroups {quantile="0.9999"} 7.539501e+06
+
+# TYPE contract_comm_systemcall_getValidator_count counter
+contract_comm_systemcall_getValidator_count 227656
+
+# TYPE contract_comm_systemcall_getValidator summary
+contract_comm_systemcall_getValidator {quantile="0.5"} 590032.5
+
+# TYPE contract_comm_systemcall_getValidator summary
+contract_comm_systemcall_getValidator {quantile="0.75"} 660392.75
+
+# TYPE contract_comm_systemcall_getValidator summary
+contract_comm_systemcall_getValidator {quantile="0.95"} 874763.95
+
+# TYPE contract_comm_systemcall_getValidator summary
+contract_comm_systemcall_getValidator {quantile="0.99"} 1.155984e+06
+
+# TYPE contract_comm_systemcall_getValidator summary
+contract_comm_systemcall_getValidator {quantile="0.999"} 2.3817310920000034e+06
+
+# TYPE contract_comm_systemcall_getValidator summary
+contract_comm_systemcall_getValidator {quantile="0.9999"} 2.410083e+06
+
+# TYPE contract_comm_systemcall_getValidatorBlsPublicKeyFromSigner_count counter
+contract_comm_systemcall_getValidatorBlsPublicKeyFromSigner_count 104
+
+# TYPE contract_comm_systemcall_getValidatorBlsPublicKeyFromSigner summary
+contract_comm_systemcall_getValidatorBlsPublicKeyFromSigner {quantile="0.5"} 494186
+
+# TYPE contract_comm_systemcall_getValidatorBlsPublicKeyFromSigner summary
+contract_comm_systemcall_getValidatorBlsPublicKeyFromSigner {quantile="0.75"} 563013.5
+
+# TYPE contract_comm_systemcall_getValidatorBlsPublicKeyFromSigner summary
+contract_comm_systemcall_getValidatorBlsPublicKeyFromSigner {quantile="0.95"} 696939.75
+
+# TYPE contract_comm_systemcall_getValidatorBlsPublicKeyFromSigner summary
+contract_comm_systemcall_getValidatorBlsPublicKeyFromSigner {quantile="0.99"} 881021.2000000002
+
+# TYPE contract_comm_systemcall_getValidatorBlsPublicKeyFromSigner summary
+contract_comm_systemcall_getValidatorBlsPublicKeyFromSigner {quantile="0.999"} 884549
+
+# TYPE contract_comm_systemcall_getValidatorBlsPublicKeyFromSigner summary
+contract_comm_systemcall_getValidatorBlsPublicKeyFromSigner {quantile="0.9999"} 884549
+
+# TYPE contract_comm_systemcall_increaseSupply_count counter
+contract_comm_systemcall_increaseSupply_count 12
+
+# TYPE contract_comm_systemcall_increaseSupply summary
+contract_comm_systemcall_increaseSupply {quantile="0.5"} 167481
+
+# TYPE contract_comm_systemcall_increaseSupply summary
+contract_comm_systemcall_increaseSupply {quantile="0.75"} 193222.75
+
+# TYPE contract_comm_systemcall_increaseSupply summary
+contract_comm_systemcall_increaseSupply {quantile="0.95"} 222676
+
+# TYPE contract_comm_systemcall_increaseSupply summary
+contract_comm_systemcall_increaseSupply {quantile="0.99"} 222676
+
+# TYPE contract_comm_systemcall_increaseSupply summary
+contract_comm_systemcall_increaseSupply {quantile="0.999"} 222676
+
+# TYPE contract_comm_systemcall_increaseSupply summary
+contract_comm_systemcall_increaseSupply {quantile="0.9999"} 222676
+
+# TYPE contract_comm_systemcall_isFrozen_count counter
+contract_comm_systemcall_isFrozen_count 17
+
+# TYPE contract_comm_systemcall_isFrozen summary
+contract_comm_systemcall_isFrozen {quantile="0.5"} 203846
+
+# TYPE contract_comm_systemcall_isFrozen summary
+contract_comm_systemcall_isFrozen {quantile="0.75"} 231812.5
+
+# TYPE contract_comm_systemcall_isFrozen summary
+contract_comm_systemcall_isFrozen {quantile="0.95"} 942811
+
+# TYPE contract_comm_systemcall_isFrozen summary
+contract_comm_systemcall_isFrozen {quantile="0.99"} 942811
+
+# TYPE contract_comm_systemcall_isFrozen summary
+contract_comm_systemcall_isFrozen {quantile="0.999"} 942811
+
+# TYPE contract_comm_systemcall_isFrozen summary
+contract_comm_systemcall_isFrozen {quantile="0.9999"} 942811
+
+# TYPE contract_comm_systemcall_isReserveLow_count counter
+contract_comm_systemcall_isReserveLow_count 11
+
+# TYPE contract_comm_systemcall_isReserveLow summary
+contract_comm_systemcall_isReserveLow {quantile="0.5"} 1.434983e+06
+
+# TYPE contract_comm_systemcall_isReserveLow summary
+contract_comm_systemcall_isReserveLow {quantile="0.75"} 1.652085e+06
+
+# TYPE contract_comm_systemcall_isReserveLow summary
+contract_comm_systemcall_isReserveLow {quantile="0.95"} 1.859861e+06
+
+# TYPE contract_comm_systemcall_isReserveLow summary
+contract_comm_systemcall_isReserveLow {quantile="0.99"} 1.859861e+06
+
+# TYPE contract_comm_systemcall_isReserveLow summary
+contract_comm_systemcall_isReserveLow {quantile="0.999"} 1.859861e+06
+
+# TYPE contract_comm_systemcall_isReserveLow summary
+contract_comm_systemcall_isReserveLow {quantile="0.9999"} 1.859861e+06
+
+# TYPE contract_comm_systemcall_medianRate_count counter
+contract_comm_systemcall_medianRate_count 11
+
+# TYPE contract_comm_systemcall_medianRate summary
+contract_comm_systemcall_medianRate {quantile="0.5"} 444559
+
+# TYPE contract_comm_systemcall_medianRate summary
+contract_comm_systemcall_medianRate {quantile="0.75"} 479493
+
+# TYPE contract_comm_systemcall_medianRate summary
+contract_comm_systemcall_medianRate {quantile="0.95"} 575733
+
+# TYPE contract_comm_systemcall_medianRate summary
+contract_comm_systemcall_medianRate {quantile="0.99"} 575733
+
+# TYPE contract_comm_systemcall_medianRate summary
+contract_comm_systemcall_medianRate {quantile="0.999"} 575733
+
+# TYPE contract_comm_systemcall_medianRate summary
+contract_comm_systemcall_medianRate {quantile="0.9999"} 575733
+
+# TYPE contract_comm_systemcall_revealAndCommit_count counter
+contract_comm_systemcall_revealAndCommit_count 199851
+
+# TYPE contract_comm_systemcall_revealAndCommit summary
+contract_comm_systemcall_revealAndCommit {quantile="0.5"} 389474
+
+# TYPE contract_comm_systemcall_revealAndCommit summary
+contract_comm_systemcall_revealAndCommit {quantile="0.75"} 475287
+
+# TYPE contract_comm_systemcall_revealAndCommit summary
+contract_comm_systemcall_revealAndCommit {quantile="0.95"} 568115.15
+
+# TYPE contract_comm_systemcall_revealAndCommit summary
+contract_comm_systemcall_revealAndCommit {quantile="0.99"} 825982.6200000006
+
+# TYPE contract_comm_systemcall_revealAndCommit summary
+contract_comm_systemcall_revealAndCommit {quantile="0.999"} 1.2471206910000003e+06
+
+# TYPE contract_comm_systemcall_revealAndCommit summary
+contract_comm_systemcall_revealAndCommit {quantile="0.9999"} 1.249363e+06
+
+# TYPE contract_comm_systemcall_totalSupply_count counter
+contract_comm_systemcall_totalSupply_count 234168
+
+# TYPE contract_comm_systemcall_totalSupply summary
+contract_comm_systemcall_totalSupply {quantile="0.5"} 226690
+
+# TYPE contract_comm_systemcall_totalSupply summary
+contract_comm_systemcall_totalSupply {quantile="0.75"} 245048.5
+
+# TYPE contract_comm_systemcall_totalSupply summary
+contract_comm_systemcall_totalSupply {quantile="0.95"} 308942.8
+
+# TYPE contract_comm_systemcall_totalSupply summary
+contract_comm_systemcall_totalSupply {quantile="0.99"} 419822.25000000023
+
+# TYPE contract_comm_systemcall_totalSupply summary
+contract_comm_systemcall_totalSupply {quantile="0.999"} 929333.3460000013
+
+# TYPE contract_comm_systemcall_totalSupply summary
+contract_comm_systemcall_totalSupply {quantile="0.9999"} 939806
+
+# TYPE contract_comm_systemcall_updateGasPriceMinimum_count counter
+contract_comm_systemcall_updateGasPriceMinimum_count 234154
+
+# TYPE contract_comm_systemcall_updateGasPriceMinimum summary
+contract_comm_systemcall_updateGasPriceMinimum {quantile="0.5"} 505759.5
+
+# TYPE contract_comm_systemcall_updateGasPriceMinimum summary
+contract_comm_systemcall_updateGasPriceMinimum {quantile="0.75"} 540475.5
+
+# TYPE contract_comm_systemcall_updateGasPriceMinimum summary
+contract_comm_systemcall_updateGasPriceMinimum {quantile="0.95"} 641443.4
+
+# TYPE contract_comm_systemcall_updateGasPriceMinimum summary
+contract_comm_systemcall_updateGasPriceMinimum {quantile="0.99"} 804408.6600000011
+
+# TYPE contract_comm_systemcall_updateGasPriceMinimum summary
+contract_comm_systemcall_updateGasPriceMinimum {quantile="0.999"} 1.4793383570000008e+06
+
+# TYPE contract_comm_systemcall_updateGasPriceMinimum summary
+contract_comm_systemcall_updateGasPriceMinimum {quantile="0.9999"} 1.484946e+06
+
+# TYPE contract_comm_systemcall_updateTargetVotingYield_count counter
+contract_comm_systemcall_updateTargetVotingYield_count 11
+
+# TYPE contract_comm_systemcall_updateTargetVotingYield summary
+contract_comm_systemcall_updateTargetVotingYield {quantile="0.5"} 1.639469e+06
+
+# TYPE contract_comm_systemcall_updateTargetVotingYield summary
+contract_comm_systemcall_updateTargetVotingYield {quantile="0.75"} 1.701088e+06
+
+# TYPE contract_comm_systemcall_updateTargetVotingYield summary
+contract_comm_systemcall_updateTargetVotingYield {quantile="0.95"} 6.88918e+06
+
+# TYPE contract_comm_systemcall_updateTargetVotingYield summary
+contract_comm_systemcall_updateTargetVotingYield {quantile="0.99"} 6.88918e+06
+
+# TYPE contract_comm_systemcall_updateTargetVotingYield summary
+contract_comm_systemcall_updateTargetVotingYield {quantile="0.999"} 6.88918e+06
+
+# TYPE contract_comm_systemcall_updateTargetVotingYield summary
+contract_comm_systemcall_updateTargetVotingYield {quantile="0.9999"} 6.88918e+06
+
+# TYPE contract_comm_systemcall_updateValidatorScoreFromSigner_count counter
+contract_comm_systemcall_updateValidatorScoreFromSigner_count 511
+
+# TYPE contract_comm_systemcall_updateValidatorScoreFromSigner summary
+contract_comm_systemcall_updateValidatorScoreFromSigner {quantile="0.5"} 907716
+
+# TYPE contract_comm_systemcall_updateValidatorScoreFromSigner summary
+contract_comm_systemcall_updateValidatorScoreFromSigner {quantile="0.75"} 975264
+
+# TYPE contract_comm_systemcall_updateValidatorScoreFromSigner summary
+contract_comm_systemcall_updateValidatorScoreFromSigner {quantile="0.95"} 1.4290723999999994e+06
+
+# TYPE contract_comm_systemcall_updateValidatorScoreFromSigner summary
+contract_comm_systemcall_updateValidatorScoreFromSigner {quantile="0.99"} 5.078325119999997e+06
+
+# TYPE contract_comm_systemcall_updateValidatorScoreFromSigner summary
+contract_comm_systemcall_updateValidatorScoreFromSigner {quantile="0.999"} 1.4420455e+07
+
+# TYPE contract_comm_systemcall_updateValidatorScoreFromSigner summary
+contract_comm_systemcall_updateValidatorScoreFromSigner {quantile="0.9999"} 1.4420455e+07
+
+# TYPE db_preimage_hits gauge
+db_preimage_hits 0
+
+# TYPE db_preimage_total gauge
+db_preimage_total 0
+
+# TYPE discv5_InboundTraffic gauge
+discv5_InboundTraffic 2479053
+
+# TYPE discv5_OutboundTraffic gauge
+discv5_OutboundTraffic 5402
+
+# TYPE eth_db_chaindata_ancient_read gauge
+eth_db_chaindata_ancient_read 54170314
+
+# TYPE eth_db_chaindata_ancient_size gauge
+eth_db_chaindata_ancient_size 78390566
+
+# TYPE eth_db_chaindata_ancient_write gauge
+eth_db_chaindata_ancient_write 78390536
+
+# TYPE eth_db_chaindata_compact_input gauge
+eth_db_chaindata_compact_input 0
+
+# TYPE eth_db_chaindata_compact_level0 gauge
+eth_db_chaindata_compact_level0 0
+
+# TYPE eth_db_chaindata_compact_memory gauge
+eth_db_chaindata_compact_memory 2
+
+# TYPE eth_db_chaindata_compact_nonlevel0 gauge
+eth_db_chaindata_compact_nonlevel0 0
+
+# TYPE eth_db_chaindata_compact_output gauge
+eth_db_chaindata_compact_output 206466994
+
+# TYPE eth_db_chaindata_compact_seek gauge
+eth_db_chaindata_compact_seek 0
+
+# TYPE eth_db_chaindata_compact_time gauge
+eth_db_chaindata_compact_time 4656159999
+
+# TYPE eth_db_chaindata_compact_writedelay_counter gauge
+eth_db_chaindata_compact_writedelay_counter 0
+
+# TYPE eth_db_chaindata_compact_writedelay_duration gauge
+eth_db_chaindata_compact_writedelay_duration 0
+
+# TYPE eth_db_chaindata_disk_read gauge
+eth_db_chaindata_disk_read 81856712
+
+# TYPE eth_db_chaindata_disk_size gauge
+eth_db_chaindata_disk_size 206479179
+
+# TYPE eth_db_chaindata_disk_write gauge
+eth_db_chaindata_disk_write 670967356
+
+# TYPE eth_downloader_bodies_drop gauge
+eth_downloader_bodies_drop 0
+
+# TYPE eth_downloader_bodies_in gauge
+eth_downloader_bodies_in 165934
+
+# TYPE eth_downloader_bodies_req_count counter
+eth_downloader_bodies_req_count 1406
+
+# TYPE eth_downloader_bodies_req summary
+eth_downloader_bodies_req {quantile="0.5"} 2.08251621e+08
+
+# TYPE eth_downloader_bodies_req summary
+eth_downloader_bodies_req {quantile="0.75"} 2.7518502825e+08
+
+# TYPE eth_downloader_bodies_req summary
+eth_downloader_bodies_req {quantile="0.95"} 3.656525468e+08
+
+# TYPE eth_downloader_bodies_req summary
+eth_downloader_bodies_req {quantile="0.99"} 4.9718005346000034e+08
+
+# TYPE eth_downloader_bodies_req summary
+eth_downloader_bodies_req {quantile="0.999"} 1.0883001326320016e+09
+
+# TYPE eth_downloader_bodies_req summary
+eth_downloader_bodies_req {quantile="0.9999"} 1.101211582e+09
+
+# TYPE eth_downloader_bodies_timeout gauge
+eth_downloader_bodies_timeout 0
+
+# TYPE eth_downloader_headers_drop gauge
+eth_downloader_headers_drop 1
+
+# TYPE eth_downloader_headers_in gauge
+eth_downloader_headers_in 167243
+
+# TYPE eth_downloader_headers_req_count counter
+eth_downloader_headers_req_count 881
+
+# TYPE eth_downloader_headers_req summary
+eth_downloader_headers_req {quantile="0.5"} 2.18876006e+08
+
+# TYPE eth_downloader_headers_req summary
+eth_downloader_headers_req {quantile="0.75"} 3.663783355e+08
+
+# TYPE eth_downloader_headers_req summary
+eth_downloader_headers_req {quantile="0.95"} 6.891767746999996e+08
+
+# TYPE eth_downloader_headers_req summary
+eth_downloader_headers_req {quantile="0.99"} 8.745817778399987e+08
+
+# TYPE eth_downloader_headers_req summary
+eth_downloader_headers_req {quantile="0.999"} 1.225728525e+09
+
+# TYPE eth_downloader_headers_req summary
+eth_downloader_headers_req {quantile="0.9999"} 1.225728525e+09
+
+# TYPE eth_downloader_headers_timeout gauge
+eth_downloader_headers_timeout 2
+
+# TYPE eth_downloader_receipts_drop gauge
+eth_downloader_receipts_drop 0
+
+# TYPE eth_downloader_receipts_in gauge
+eth_downloader_receipts_in 0
+
+# TYPE eth_downloader_receipts_req_count counter
+eth_downloader_receipts_req_count 0
+
+# TYPE eth_downloader_receipts_req summary
+eth_downloader_receipts_req {quantile="0.5"} 0
+
+# TYPE eth_downloader_receipts_req summary
+eth_downloader_receipts_req {quantile="0.75"} 0
+
+# TYPE eth_downloader_receipts_req summary
+eth_downloader_receipts_req {quantile="0.95"} 0
+
+# TYPE eth_downloader_receipts_req summary
+eth_downloader_receipts_req {quantile="0.99"} 0
+
+# TYPE eth_downloader_receipts_req summary
+eth_downloader_receipts_req {quantile="0.999"} 0
+
+# TYPE eth_downloader_receipts_req summary
+eth_downloader_receipts_req {quantile="0.9999"} 0
+
+# TYPE eth_downloader_receipts_timeout gauge
+eth_downloader_receipts_timeout 0
+
+# TYPE eth_downloader_states_drop gauge
+eth_downloader_states_drop 0
+
+# TYPE eth_downloader_states_in gauge
+eth_downloader_states_in 0
+
+# TYPE eth_fetcher_fetch_bodies gauge
+eth_fetcher_fetch_bodies 3
+
+# TYPE eth_fetcher_fetch_headers gauge
+eth_fetcher_fetch_headers 4
+
+# TYPE eth_fetcher_filter_bodies_in gauge
+eth_fetcher_filter_bodies_in 165937
+
+# TYPE eth_fetcher_filter_bodies_out gauge
+eth_fetcher_filter_bodies_out 165934
+
+# TYPE eth_fetcher_filter_headers_in gauge
+eth_fetcher_filter_headers_in 41
+
+# TYPE eth_fetcher_filter_headers_out gauge
+eth_fetcher_filter_headers_out 38
+
+# TYPE eth_fetcher_prop_announces_dos gauge
+eth_fetcher_prop_announces_dos 0
+
+# TYPE eth_fetcher_prop_announces_drop gauge
+eth_fetcher_prop_announces_drop 17633
+
+# TYPE eth_fetcher_prop_announces_in gauge
+eth_fetcher_prop_announces_in 515044
+
+# TYPE eth_fetcher_prop_announces_out_count counter
+eth_fetcher_prop_announces_out_count 34652
+
+# TYPE eth_fetcher_prop_announces_out summary
+eth_fetcher_prop_announces_out {quantile="0.5"} 3.05524305e+07
+
+# TYPE eth_fetcher_prop_announces_out summary
+eth_fetcher_prop_announces_out {quantile="0.75"} 3.308222175e+07
+
+# TYPE eth_fetcher_prop_announces_out summary
+eth_fetcher_prop_announces_out {quantile="0.95"} 3.97569729e+07
+
+# TYPE eth_fetcher_prop_announces_out summary
+eth_fetcher_prop_announces_out {quantile="0.99"} 4.8405666480000004e+07
+
+# TYPE eth_fetcher_prop_announces_out summary
+eth_fetcher_prop_announces_out {quantile="0.999"} 6.760397291100004e+07
+
+# TYPE eth_fetcher_prop_announces_out summary
+eth_fetcher_prop_announces_out {quantile="0.9999"} 6.7900241e+07
+
+# TYPE eth_fetcher_prop_broadcasts_dos gauge
+eth_fetcher_prop_broadcasts_dos 0
+
+# TYPE eth_fetcher_prop_broadcasts_drop gauge
+eth_fetcher_prop_broadcasts_drop 2316
+
+# TYPE eth_fetcher_prop_broadcasts_in gauge
+eth_fetcher_prop_broadcasts_in 215028
+
+# TYPE eth_fetcher_prop_broadcasts_out_count counter
+eth_fetcher_prop_broadcasts_out_count 34652
+
+# TYPE eth_fetcher_prop_broadcasts_out summary
+eth_fetcher_prop_broadcasts_out {quantile="0.5"} 1.3440006e+07
+
+# TYPE eth_fetcher_prop_broadcasts_out summary
+eth_fetcher_prop_broadcasts_out {quantile="0.75"} 1.451344025e+07
+
+# TYPE eth_fetcher_prop_broadcasts_out summary
+eth_fetcher_prop_broadcasts_out {quantile="0.95"} 1.775531875e+07
+
+# TYPE eth_fetcher_prop_broadcasts_out summary
+eth_fetcher_prop_broadcasts_out {quantile="0.99"} 2.3241780890000004e+07
+
+# TYPE eth_fetcher_prop_broadcasts_out summary
+eth_fetcher_prop_broadcasts_out {quantile="0.999"} 2.9490379320000004e+07
+
+# TYPE eth_fetcher_prop_broadcasts_out summary
+eth_fetcher_prop_broadcasts_out {quantile="0.9999"} 2.9516274e+07
+
+# TYPE eth_misc_in_packets gauge
+eth_misc_in_packets 4675591
+
+# TYPE eth_misc_in_traffic gauge
+eth_misc_in_traffic 1365905743
+
+# TYPE eth_misc_out_packets gauge
+eth_misc_out_packets 7865408
+
+# TYPE eth_misc_out_traffic gauge
+eth_misc_out_traffic 2307337360
+
+# TYPE eth_prop_blocks_in_packets gauge
+eth_prop_blocks_in_packets 215028
+
+# TYPE eth_prop_blocks_in_traffic gauge
+eth_prop_blocks_in_traffic 167088322
+
+# TYPE eth_prop_blocks_out_packets gauge
+eth_prop_blocks_out_packets 223403
+
+# TYPE eth_prop_blocks_out_traffic gauge
+eth_prop_blocks_out_traffic 173626117
+
+# TYPE eth_prop_hashes_in_packets gauge
+eth_prop_hashes_in_packets 1519999
+
+# TYPE eth_prop_hashes_in_traffic gauge
+eth_prop_hashes_in_traffic 59279961
+
+# TYPE eth_prop_hashes_out_packets gauge
+eth_prop_hashes_out_packets 1142440
+
+# TYPE eth_prop_hashes_out_traffic gauge
+eth_prop_hashes_out_traffic 44555160
+
+# TYPE eth_prop_txns_in_packets gauge
+eth_prop_txns_in_packets 306746
+
+# TYPE eth_prop_txns_in_traffic gauge
+eth_prop_txns_in_traffic 77841119
+
+# TYPE eth_prop_txns_out_packets gauge
+eth_prop_txns_out_packets 338397
+
+# TYPE eth_prop_txns_out_traffic gauge
+eth_prop_txns_out_traffic 85536980
+
+# TYPE eth_req_bodies_in_packets gauge
+eth_req_bodies_in_packets 1409
+
+# TYPE eth_req_bodies_in_traffic gauge
+eth_req_bodies_in_traffic 30866251
+
+# TYPE eth_req_bodies_out_packets gauge
+eth_req_bodies_out_packets 1435
+
+# TYPE eth_req_bodies_out_traffic gauge
+eth_req_bodies_out_traffic 32109827
+
+# TYPE eth_req_headers_in_packets gauge
+eth_req_headers_in_packets 926
+
+# TYPE eth_req_headers_in_traffic gauge
+eth_req_headers_in_traffic 108408823
+
+# TYPE eth_req_headers_out_packets gauge
+eth_req_headers_out_packets 1056
+
+# TYPE eth_req_headers_out_traffic gauge
+eth_req_headers_out_traffic 113521799
+
+# TYPE eth_req_receipts_in_packets gauge
+eth_req_receipts_in_packets 0
+
+# TYPE eth_req_receipts_in_traffic gauge
+eth_req_receipts_in_traffic 0
+
+# TYPE eth_req_receipts_out_packets gauge
+eth_req_receipts_out_packets 0
+
+# TYPE eth_req_receipts_out_traffic gauge
+eth_req_receipts_out_traffic 0
+
+# TYPE eth_req_states_in_packets gauge
+eth_req_states_in_packets 0
+
+# TYPE eth_req_states_in_traffic gauge
+eth_req_states_in_traffic 0
+
+# TYPE eth_req_states_out_packets gauge
+eth_req_states_out_packets 0
+
+# TYPE eth_req_states_out_traffic gauge
+eth_req_states_out_traffic 0
+
+# TYPE les_client_req_rtt_count counter
+les_client_req_rtt_count 0
+
+# TYPE les_client_req_rtt summary
+les_client_req_rtt {quantile="0.5"} 0
+
+# TYPE les_client_req_rtt summary
+les_client_req_rtt {quantile="0.75"} 0
+
+# TYPE les_client_req_rtt summary
+les_client_req_rtt {quantile="0.95"} 0
+
+# TYPE les_client_req_rtt summary
+les_client_req_rtt {quantile="0.99"} 0
+
+# TYPE les_client_req_rtt summary
+les_client_req_rtt {quantile="0.999"} 0
+
+# TYPE les_client_req_rtt summary
+les_client_req_rtt {quantile="0.9999"} 0
+
+# TYPE les_client_req_sendDelay_count counter
+les_client_req_sendDelay_count 0
+
+# TYPE les_client_req_sendDelay summary
+les_client_req_sendDelay {quantile="0.5"} 0
+
+# TYPE les_client_req_sendDelay summary
+les_client_req_sendDelay {quantile="0.75"} 0
+
+# TYPE les_client_req_sendDelay summary
+les_client_req_sendDelay {quantile="0.95"} 0
+
+# TYPE les_client_req_sendDelay summary
+les_client_req_sendDelay {quantile="0.99"} 0
+
+# TYPE les_client_req_sendDelay summary
+les_client_req_sendDelay {quantile="0.999"} 0
+
+# TYPE les_client_req_sendDelay summary
+les_client_req_sendDelay {quantile="0.9999"} 0
+
+# TYPE les_connection_client gauge
+les_connection_client 1
+
+# TYPE les_connection_duration_count counter
+les_connection_duration_count 18
+
+# TYPE les_connection_duration summary
+les_connection_duration {quantile="0.5"} 2.626135256275e+12
+
+# TYPE les_connection_duration summary
+les_connection_duration {quantile="0.75"} 5.1170149636655e+12
+
+# TYPE les_connection_duration summary
+les_connection_duration {quantile="0.95"} 1.9816218249992e+13
+
+# TYPE les_connection_duration summary
+les_connection_duration {quantile="0.99"} 1.9816218249992e+13
+
+# TYPE les_connection_duration summary
+les_connection_duration {quantile="0.999"} 1.9816218249992e+13
+
+# TYPE les_connection_duration summary
+les_connection_duration {quantile="0.9999"} 1.9816218249992e+13
+
+# TYPE les_connection_server gauge
+les_connection_server 0
+
+# TYPE les_misc_in_packets_body gauge
+les_misc_in_packets_body 0
+
+# TYPE les_misc_in_packets_code gauge
+les_misc_in_packets_code 0
+
+# TYPE les_misc_in_packets_etherbase gauge
+les_misc_in_packets_etherbase 0
+
+# TYPE les_misc_in_packets_header gauge
+les_misc_in_packets_header 0
+
+# TYPE les_misc_in_packets_helperTrie gauge
+les_misc_in_packets_helperTrie 0
+
+# TYPE les_misc_in_packets_proof gauge
+les_misc_in_packets_proof 0
+
+# TYPE les_misc_in_packets_receipt gauge
+les_misc_in_packets_receipt 0
+
+# TYPE les_misc_in_packets_total gauge
+les_misc_in_packets_total 127
+
+# TYPE les_misc_in_packets_txStatus gauge
+les_misc_in_packets_txStatus 0
+
+# TYPE les_misc_in_packets_txs gauge
+les_misc_in_packets_txs 0
+
+# TYPE les_misc_in_traffic_body gauge
+les_misc_in_traffic_body 0
+
+# TYPE les_misc_in_traffic_code gauge
+les_misc_in_traffic_code 0
+
+# TYPE les_misc_in_traffic_etherbase gauge
+les_misc_in_traffic_etherbase 0
+
+# TYPE les_misc_in_traffic_header gauge
+les_misc_in_traffic_header 0
+
+# TYPE les_misc_in_traffic_helperTrie gauge
+les_misc_in_traffic_helperTrie 0
+
+# TYPE les_misc_in_traffic_proof gauge
+les_misc_in_traffic_proof 0
+
+# TYPE les_misc_in_traffic_receipt gauge
+les_misc_in_traffic_receipt 0
+
+# TYPE les_misc_in_traffic_total gauge
+les_misc_in_traffic_total 9194
+
+# TYPE les_misc_in_traffic_txStatus gauge
+les_misc_in_traffic_txStatus 0
+
+# TYPE les_misc_in_traffic_txs gauge
+les_misc_in_traffic_txs 0
+
+# TYPE les_misc_out_packets_body gauge
+les_misc_out_packets_body 0
+
+# TYPE les_misc_out_packets_code gauge
+les_misc_out_packets_code 0
+
+# TYPE les_misc_out_packets_etherbase gauge
+les_misc_out_packets_etherbase 0
+
+# TYPE les_misc_out_packets_header gauge
+les_misc_out_packets_header 0
+
+# TYPE les_misc_out_packets_helperTrie gauge
+les_misc_out_packets_helperTrie 0
+
+# TYPE les_misc_out_packets_proof gauge
+les_misc_out_packets_proof 0
+
+# TYPE les_misc_out_packets_receipt gauge
+les_misc_out_packets_receipt 0
+
+# TYPE les_misc_out_packets_total gauge
+les_misc_out_packets_total 15842
+
+# TYPE les_misc_out_packets_txStatus gauge
+les_misc_out_packets_txStatus 0
+
+# TYPE les_misc_out_packets_txs gauge
+les_misc_out_packets_txs 0
+
+# TYPE les_misc_out_traffic_body gauge
+les_misc_out_traffic_body 0
+
+# TYPE les_misc_out_traffic_code gauge
+les_misc_out_traffic_code 0
+
+# TYPE les_misc_out_traffic_etherbase gauge
+les_misc_out_traffic_etherbase 0
+
+# TYPE les_misc_out_traffic_header gauge
+les_misc_out_traffic_header 0
+
+# TYPE les_misc_out_traffic_helperTrie gauge
+les_misc_out_traffic_helperTrie 0
+
+# TYPE les_misc_out_traffic_proof gauge
+les_misc_out_traffic_proof 0
+
+# TYPE les_misc_out_traffic_receipt gauge
+les_misc_out_traffic_receipt 0
+
+# TYPE les_misc_out_traffic_total gauge
+les_misc_out_traffic_total 791716
+
+# TYPE les_misc_out_traffic_txStatus gauge
+les_misc_out_traffic_txStatus 0
+
+# TYPE les_misc_out_traffic_txs gauge
+les_misc_out_traffic_txs 0
+
+# TYPE les_misc_serve_body_count counter
+les_misc_serve_body_count 0
+
+# TYPE les_misc_serve_body summary
+les_misc_serve_body {quantile="0.5"} 0
+
+# TYPE les_misc_serve_body summary
+les_misc_serve_body {quantile="0.75"} 0
+
+# TYPE les_misc_serve_body summary
+les_misc_serve_body {quantile="0.95"} 0
+
+# TYPE les_misc_serve_body summary
+les_misc_serve_body {quantile="0.99"} 0
+
+# TYPE les_misc_serve_body summary
+les_misc_serve_body {quantile="0.999"} 0
+
+# TYPE les_misc_serve_body summary
+les_misc_serve_body {quantile="0.9999"} 0
+
+# TYPE les_misc_serve_code_count counter
+les_misc_serve_code_count 0
+
+# TYPE les_misc_serve_code summary
+les_misc_serve_code {quantile="0.5"} 0
+
+# TYPE les_misc_serve_code summary
+les_misc_serve_code {quantile="0.75"} 0
+
+# TYPE les_misc_serve_code summary
+les_misc_serve_code {quantile="0.95"} 0
+
+# TYPE les_misc_serve_code summary
+les_misc_serve_code {quantile="0.99"} 0
+
+# TYPE les_misc_serve_code summary
+les_misc_serve_code {quantile="0.999"} 0
+
+# TYPE les_misc_serve_code summary
+les_misc_serve_code {quantile="0.9999"} 0
+
+# TYPE les_misc_serve_etherbase_count counter
+les_misc_serve_etherbase_count 0
+
+# TYPE les_misc_serve_etherbase summary
+les_misc_serve_etherbase {quantile="0.5"} 0
+
+# TYPE les_misc_serve_etherbase summary
+les_misc_serve_etherbase {quantile="0.75"} 0
+
+# TYPE les_misc_serve_etherbase summary
+les_misc_serve_etherbase {quantile="0.95"} 0
+
+# TYPE les_misc_serve_etherbase summary
+les_misc_serve_etherbase {quantile="0.99"} 0
+
+# TYPE les_misc_serve_etherbase summary
+les_misc_serve_etherbase {quantile="0.999"} 0
+
+# TYPE les_misc_serve_etherbase summary
+les_misc_serve_etherbase {quantile="0.9999"} 0
+
+# TYPE les_misc_serve_header_count counter
+les_misc_serve_header_count 0
+
+# TYPE les_misc_serve_header summary
+les_misc_serve_header {quantile="0.5"} 0
+
+# TYPE les_misc_serve_header summary
+les_misc_serve_header {quantile="0.75"} 0
+
+# TYPE les_misc_serve_header summary
+les_misc_serve_header {quantile="0.95"} 0
+
+# TYPE les_misc_serve_header summary
+les_misc_serve_header {quantile="0.99"} 0
+
+# TYPE les_misc_serve_header summary
+les_misc_serve_header {quantile="0.999"} 0
+
+# TYPE les_misc_serve_header summary
+les_misc_serve_header {quantile="0.9999"} 0
+
+# TYPE les_misc_serve_helperTrie_count counter
+les_misc_serve_helperTrie_count 0
+
+# TYPE les_misc_serve_helperTrie summary
+les_misc_serve_helperTrie {quantile="0.5"} 0
+
+# TYPE les_misc_serve_helperTrie summary
+les_misc_serve_helperTrie {quantile="0.75"} 0
+
+# TYPE les_misc_serve_helperTrie summary
+les_misc_serve_helperTrie {quantile="0.95"} 0
+
+# TYPE les_misc_serve_helperTrie summary
+les_misc_serve_helperTrie {quantile="0.99"} 0
+
+# TYPE les_misc_serve_helperTrie summary
+les_misc_serve_helperTrie {quantile="0.999"} 0
+
+# TYPE les_misc_serve_helperTrie summary
+les_misc_serve_helperTrie {quantile="0.9999"} 0
+
+# TYPE les_misc_serve_proof_count counter
+les_misc_serve_proof_count 0
+
+# TYPE les_misc_serve_proof summary
+les_misc_serve_proof {quantile="0.5"} 0
+
+# TYPE les_misc_serve_proof summary
+les_misc_serve_proof {quantile="0.75"} 0
+
+# TYPE les_misc_serve_proof summary
+les_misc_serve_proof {quantile="0.95"} 0
+
+# TYPE les_misc_serve_proof summary
+les_misc_serve_proof {quantile="0.99"} 0
+
+# TYPE les_misc_serve_proof summary
+les_misc_serve_proof {quantile="0.999"} 0
+
+# TYPE les_misc_serve_proof summary
+les_misc_serve_proof {quantile="0.9999"} 0
+
+# TYPE les_misc_serve_receipt_count counter
+les_misc_serve_receipt_count 0
+
+# TYPE les_misc_serve_receipt summary
+les_misc_serve_receipt {quantile="0.5"} 0
+
+# TYPE les_misc_serve_receipt summary
+les_misc_serve_receipt {quantile="0.75"} 0
+
+# TYPE les_misc_serve_receipt summary
+les_misc_serve_receipt {quantile="0.95"} 0
+
+# TYPE les_misc_serve_receipt summary
+les_misc_serve_receipt {quantile="0.99"} 0
+
+# TYPE les_misc_serve_receipt summary
+les_misc_serve_receipt {quantile="0.999"} 0
+
+# TYPE les_misc_serve_receipt summary
+les_misc_serve_receipt {quantile="0.9999"} 0
+
+# TYPE les_misc_serve_txStatus_count counter
+les_misc_serve_txStatus_count 0
+
+# TYPE les_misc_serve_txStatus summary
+les_misc_serve_txStatus {quantile="0.5"} 0
+
+# TYPE les_misc_serve_txStatus summary
+les_misc_serve_txStatus {quantile="0.75"} 0
+
+# TYPE les_misc_serve_txStatus summary
+les_misc_serve_txStatus {quantile="0.95"} 0
+
+# TYPE les_misc_serve_txStatus summary
+les_misc_serve_txStatus {quantile="0.99"} 0
+
+# TYPE les_misc_serve_txStatus summary
+les_misc_serve_txStatus {quantile="0.999"} 0
+
+# TYPE les_misc_serve_txStatus summary
+les_misc_serve_txStatus {quantile="0.9999"} 0
+
+# TYPE les_misc_serve_txs_count counter
+les_misc_serve_txs_count 0
+
+# TYPE les_misc_serve_txs summary
+les_misc_serve_txs {quantile="0.5"} 0
+
+# TYPE les_misc_serve_txs summary
+les_misc_serve_txs {quantile="0.75"} 0
+
+# TYPE les_misc_serve_txs summary
+les_misc_serve_txs {quantile="0.95"} 0
+
+# TYPE les_misc_serve_txs summary
+les_misc_serve_txs {quantile="0.99"} 0
+
+# TYPE les_misc_serve_txs summary
+les_misc_serve_txs {quantile="0.999"} 0
+
+# TYPE les_misc_serve_txs summary
+les_misc_serve_txs {quantile="0.9999"} 0
+
+# TYPE les_server_blockProcessingTime_count counter
+les_server_blockProcessingTime_count 34742
+
+# TYPE les_server_blockProcessingTime summary
+les_server_blockProcessingTime {quantile="0.5"} 1.760693e+07
+
+# TYPE les_server_blockProcessingTime summary
+les_server_blockProcessingTime {quantile="0.75"} 1.95654635e+07
+
+# TYPE les_server_blockProcessingTime summary
+les_server_blockProcessingTime {quantile="0.95"} 2.3620685149999995e+07
+
+# TYPE les_server_blockProcessingTime summary
+les_server_blockProcessingTime {quantile="0.99"} 3.0065525380000014e+07
+
+# TYPE les_server_blockProcessingTime summary
+les_server_blockProcessingTime {quantile="0.999"} 5.290712747200003e+07
+
+# TYPE les_server_blockProcessingTime summary
+les_server_blockProcessingTime {quantile="0.9999"} 5.3201838e+07
+
+# TYPE les_server_clientEvent_connected gauge
+les_server_clientEvent_connected 19
+
+# TYPE les_server_clientEvent_disconnected gauge
+les_server_clientEvent_disconnected 18
+
+# TYPE les_server_clientEvent_error gauge
+les_server_clientEvent_error 0
+
+# TYPE les_server_clientEvent_freeze gauge
+les_server_clientEvent_freeze 0
+
+# TYPE les_server_clientEvent_kicked gauge
+les_server_clientEvent_kicked 0
+
+# TYPE les_server_clientEvent_rejected gauge
+les_server_clientEvent_rejected 0
+
+# TYPE les_server_globalFactor gauge
+les_server_globalFactor 0
+
+# TYPE les_server_recentRequestEstimated gauge
+les_server_recentRequestEstimated 600000
+
+# TYPE les_server_recentRequestServed gauge
+les_server_recentRequestServed 181951
+
+# TYPE les_server_req_avgEstimatedTime gauge
+les_server_req_avgEstimatedTime 37370023
+
+# TYPE les_server_req_avgServedTime gauge
+les_server_req_avgServedTime 10174803
+
+# TYPE les_server_req_estimatedTime_count counter
+les_server_req_estimatedTime_count 108
+
+# TYPE les_server_req_estimatedTime summary
+les_server_req_estimatedTime {quantile="0.5"} 180000
+
+# TYPE les_server_req_estimatedTime summary
+les_server_req_estimatedTime {quantile="0.75"} 600000
+
+# TYPE les_server_req_estimatedTime summary
+les_server_req_estimatedTime {quantile="0.95"} 600000
+
+# TYPE les_server_req_estimatedTime summary
+les_server_req_estimatedTime {quantile="0.99"} 600000
+
+# TYPE les_server_req_estimatedTime summary
+les_server_req_estimatedTime {quantile="0.999"} 600000
+
+# TYPE les_server_req_estimatedTime summary
+les_server_req_estimatedTime {quantile="0.9999"} 600000
+
+# TYPE les_server_req_relative_count counter
+les_server_req_relative_count 108
+
+# TYPE les_server_req_relative summary
+les_server_req_relative {quantile="0.5"} 25
+
+# TYPE les_server_req_relative summary
+les_server_req_relative {quantile="0.75"} 33
+
+# TYPE les_server_req_relative summary
+les_server_req_relative {quantile="0.95"} 185.39999999999998
+
+# TYPE les_server_req_relative summary
+les_server_req_relative {quantile="0.99"} 668.8399999999986
+
+# TYPE les_server_req_relative summary
+les_server_req_relative {quantile="0.999"} 707
+
+# TYPE les_server_req_relative summary
+les_server_req_relative {quantile="0.9999"} 707
+
+# TYPE les_server_req_relative_body_count counter
+les_server_req_relative_body_count 0
+
+# TYPE les_server_req_relative_body summary
+les_server_req_relative_body {quantile="0.5"} 0
+
+# TYPE les_server_req_relative_body summary
+les_server_req_relative_body {quantile="0.75"} 0
+
+# TYPE les_server_req_relative_body summary
+les_server_req_relative_body {quantile="0.95"} 0
+
+# TYPE les_server_req_relative_body summary
+les_server_req_relative_body {quantile="0.99"} 0
+
+# TYPE les_server_req_relative_body summary
+les_server_req_relative_body {quantile="0.999"} 0
+
+# TYPE les_server_req_relative_body summary
+les_server_req_relative_body {quantile="0.9999"} 0
+
+# TYPE les_server_req_relative_code_count counter
+les_server_req_relative_code_count 0
+
+# TYPE les_server_req_relative_code summary
+les_server_req_relative_code {quantile="0.5"} 0
+
+# TYPE les_server_req_relative_code summary
+les_server_req_relative_code {quantile="0.75"} 0
+
+# TYPE les_server_req_relative_code summary
+les_server_req_relative_code {quantile="0.95"} 0
+
+# TYPE les_server_req_relative_code summary
+les_server_req_relative_code {quantile="0.99"} 0
+
+# TYPE les_server_req_relative_code summary
+les_server_req_relative_code {quantile="0.999"} 0
+
+# TYPE les_server_req_relative_code summary
+les_server_req_relative_code {quantile="0.9999"} 0
+
+# TYPE les_server_req_relative_header_count counter
+les_server_req_relative_header_count 0
+
+# TYPE les_server_req_relative_header summary
+les_server_req_relative_header {quantile="0.5"} 0
+
+# TYPE les_server_req_relative_header summary
+les_server_req_relative_header {quantile="0.75"} 0
+
+# TYPE les_server_req_relative_header summary
+les_server_req_relative_header {quantile="0.95"} 0
+
+# TYPE les_server_req_relative_header summary
+les_server_req_relative_header {quantile="0.99"} 0
+
+# TYPE les_server_req_relative_header summary
+les_server_req_relative_header {quantile="0.999"} 0
+
+# TYPE les_server_req_relative_header summary
+les_server_req_relative_header {quantile="0.9999"} 0
+
+# TYPE les_server_req_relative_helperTrie_count counter
+les_server_req_relative_helperTrie_count 0
+
+# TYPE les_server_req_relative_helperTrie summary
+les_server_req_relative_helperTrie {quantile="0.5"} 0
+
+# TYPE les_server_req_relative_helperTrie summary
+les_server_req_relative_helperTrie {quantile="0.75"} 0
+
+# TYPE les_server_req_relative_helperTrie summary
+les_server_req_relative_helperTrie {quantile="0.95"} 0
+
+# TYPE les_server_req_relative_helperTrie summary
+les_server_req_relative_helperTrie {quantile="0.99"} 0
+
+# TYPE les_server_req_relative_helperTrie summary
+les_server_req_relative_helperTrie {quantile="0.999"} 0
+
+# TYPE les_server_req_relative_helperTrie summary
+les_server_req_relative_helperTrie {quantile="0.9999"} 0
+
+# TYPE les_server_req_relative_proof_count counter
+les_server_req_relative_proof_count 0
+
+# TYPE les_server_req_relative_proof summary
+les_server_req_relative_proof {quantile="0.5"} 0
+
+# TYPE les_server_req_relative_proof summary
+les_server_req_relative_proof {quantile="0.75"} 0
+
+# TYPE les_server_req_relative_proof summary
+les_server_req_relative_proof {quantile="0.95"} 0
+
+# TYPE les_server_req_relative_proof summary
+les_server_req_relative_proof {quantile="0.99"} 0
+
+# TYPE les_server_req_relative_proof summary
+les_server_req_relative_proof {quantile="0.999"} 0
+
+# TYPE les_server_req_relative_proof summary
+les_server_req_relative_proof {quantile="0.9999"} 0
+
+# TYPE les_server_req_relative_receipt_count counter
+les_server_req_relative_receipt_count 0
+
+# TYPE les_server_req_relative_receipt summary
+les_server_req_relative_receipt {quantile="0.5"} 0
+
+# TYPE les_server_req_relative_receipt summary
+les_server_req_relative_receipt {quantile="0.75"} 0
+
+# TYPE les_server_req_relative_receipt summary
+les_server_req_relative_receipt {quantile="0.95"} 0
+
+# TYPE les_server_req_relative_receipt summary
+les_server_req_relative_receipt {quantile="0.99"} 0
+
+# TYPE les_server_req_relative_receipt summary
+les_server_req_relative_receipt {quantile="0.999"} 0
+
+# TYPE les_server_req_relative_receipt summary
+les_server_req_relative_receipt {quantile="0.9999"} 0
+
+# TYPE les_server_req_relative_txStatus_count counter
+les_server_req_relative_txStatus_count 0
+
+# TYPE les_server_req_relative_txStatus summary
+les_server_req_relative_txStatus {quantile="0.5"} 0
+
+# TYPE les_server_req_relative_txStatus summary
+les_server_req_relative_txStatus {quantile="0.75"} 0
+
+# TYPE les_server_req_relative_txStatus summary
+les_server_req_relative_txStatus {quantile="0.95"} 0
+
+# TYPE les_server_req_relative_txStatus summary
+les_server_req_relative_txStatus {quantile="0.99"} 0
+
+# TYPE les_server_req_relative_txStatus summary
+les_server_req_relative_txStatus {quantile="0.999"} 0
+
+# TYPE les_server_req_relative_txStatus summary
+les_server_req_relative_txStatus {quantile="0.9999"} 0
+
+# TYPE les_server_req_relative_txs_count counter
+les_server_req_relative_txs_count 0
+
+# TYPE les_server_req_relative_txs summary
+les_server_req_relative_txs {quantile="0.5"} 0
+
+# TYPE les_server_req_relative_txs summary
+les_server_req_relative_txs {quantile="0.75"} 0
+
+# TYPE les_server_req_relative_txs summary
+les_server_req_relative_txs {quantile="0.95"} 0
+
+# TYPE les_server_req_relative_txs summary
+les_server_req_relative_txs {quantile="0.99"} 0
+
+# TYPE les_server_req_relative_txs summary
+les_server_req_relative_txs {quantile="0.999"} 0
+
+# TYPE les_server_req_relative_txs summary
+les_server_req_relative_txs {quantile="0.9999"} 0
+
+# TYPE les_server_req_servedTime_count counter
+les_server_req_servedTime_count 108
+
+# TYPE les_server_req_servedTime summary
+les_server_req_servedTime {quantile="0.5"} 65868
+
+# TYPE les_server_req_servedTime summary
+les_server_req_servedTime {quantile="0.75"} 149657.75
+
+# TYPE les_server_req_servedTime summary
+les_server_req_servedTime {quantile="0.95"} 191148.55
+
+# TYPE les_server_req_servedTime summary
+les_server_req_servedTime {quantile="0.99"} 257078.68999999983
+
+# TYPE les_server_req_servedTime summary
+les_server_req_servedTime {quantile="0.999"} 261827
+
+# TYPE les_server_req_servedTime summary
+les_server_req_servedTime {quantile="0.9999"} 261827
+
+# TYPE les_server_servingQueue_queued gauge
+les_server_servingQueue_queued 0
+
+# TYPE les_server_servingQueue_served gauge
+les_server_servingQueue_served 1200000
+
+# TYPE les_server_totalCapacity gauge
+les_server_totalCapacity 0
+
+# TYPE les_server_totalConnected gauge
+les_server_totalConnected 16000
+
+# TYPE les_server_totalRecharge gauge
+les_server_totalRecharge 0
+
+# TYPE p2p_dials gauge
+p2p_dials 153980
+
+# TYPE p2p_egress gauge
+p2p_egress 2942387931
+
+# TYPE p2p_egress_istanbul_65_0x00 gauge
+p2p_egress_istanbul_65_0x00 33636219
+
+# TYPE p2p_egress_istanbul_65_0x01 gauge
+p2p_egress_istanbul_65_0x01 46839999
+
+# TYPE p2p_egress_istanbul_65_0x02 gauge
+p2p_egress_istanbul_65_0x02 70094131
+
+# TYPE p2p_egress_istanbul_65_0x03 gauge
+p2p_egress_istanbul_65_0x03 9974
+
+# TYPE p2p_egress_istanbul_65_0x04 gauge
+p2p_egress_istanbul_65_0x04 51494554
+
+# TYPE p2p_egress_istanbul_65_0x05 gauge
+p2p_egress_istanbul_65_0x05 5492541
+
+# TYPE p2p_egress_istanbul_65_0x06 gauge
+p2p_egress_istanbul_65_0x06 22874850
+
+# TYPE p2p_egress_istanbul_65_0x07 gauge
+p2p_egress_istanbul_65_0x07 126412613
+
+# TYPE p2p_egress_istanbul_65_0x11 gauge
+p2p_egress_istanbul_65_0x11 1284012998
+
+# TYPE p2p_egress_istanbul_65_0x12 gauge
+p2p_egress_istanbul_65_0x12 127773654
+
+# TYPE p2p_egress_istanbul_65_0x15 gauge
+p2p_egress_istanbul_65_0x15 121481607
+
+# TYPE p2p_egress_istanbul_65_0x16 gauge
+p2p_egress_istanbul_65_0x16 131957076
+
+# TYPE p2p_egress_istanbul_65_0x17 gauge
+p2p_egress_istanbul_65_0x17 15046150
+
+# TYPE p2p_egress_istanbul_65_0x18 gauge
+p2p_egress_istanbul_65_0x18 1622064
+
+# TYPE p2p_egress_les_3_0x00 gauge
+p2p_egress_les_3_0x00 6226
+
+# TYPE p2p_egress_les_3_0x01 gauge
+p2p_egress_les_3_0x01 722890
+
+# TYPE p2p_egress_les_3_0x03 gauge
+p2p_egress_les_3_0x03 15746
+
+# TYPE p2p_egress_les_3_0x10 gauge
+p2p_egress_les_3_0x10 70795
+
+# TYPE p2p_egress_les_3_0x17 gauge
+p2p_egress_les_3_0x17 874
+
+# TYPE p2p_ingress gauge
+p2p_ingress 2270824101
+
+# TYPE p2p_ingress_istanbul_65_0x00 gauge
+p2p_ingress_istanbul_65_0x00 33565655
+
+# TYPE p2p_ingress_istanbul_65_0x01 gauge
+p2p_ingress_istanbul_65_0x01 62320123
+
+# TYPE p2p_ingress_istanbul_65_0x02 gauge
+p2p_ingress_istanbul_65_0x02 63595581
+
+# TYPE p2p_ingress_istanbul_65_0x03 gauge
+p2p_ingress_istanbul_65_0x03 13344
+
+# TYPE p2p_ingress_istanbul_65_0x04 gauge
+p2p_ingress_istanbul_65_0x04 49064602
+
+# TYPE p2p_ingress_istanbul_65_0x05 gauge
+p2p_ingress_istanbul_65_0x05 5746601
+
+# TYPE p2p_ingress_istanbul_65_0x06 gauge
+p2p_ingress_istanbul_65_0x06 21876317
+
+# TYPE p2p_ingress_istanbul_65_0x07 gauge
+p2p_ingress_istanbul_65_0x07 121624327
+
+# TYPE p2p_ingress_istanbul_65_0x11 gauge
+p2p_ingress_istanbul_65_0x11 609965362
+
+# TYPE p2p_ingress_istanbul_65_0x12 gauge
+p2p_ingress_istanbul_65_0x12 118885618
+
+# TYPE p2p_ingress_istanbul_65_0x13 gauge
+p2p_ingress_istanbul_65_0x13 25261626
+
+# TYPE p2p_ingress_istanbul_65_0x14 gauge
+p2p_ingress_istanbul_65_0x14 94106086
+
+# TYPE p2p_ingress_istanbul_65_0x15 gauge
+p2p_ingress_istanbul_65_0x15 166902874
+
+# TYPE p2p_ingress_istanbul_65_0x16 gauge
+p2p_ingress_istanbul_65_0x16 148916203
+
+# TYPE p2p_ingress_istanbul_65_0x17 gauge
+p2p_ingress_istanbul_65_0x17 15246671
+
+# TYPE p2p_ingress_istanbul_65_0x18 gauge
+p2p_ingress_istanbul_65_0x18 4070721
+
+# TYPE p2p_ingress_les_3_0x00 gauge
+p2p_ingress_les_3_0x00 3340
+
+# TYPE p2p_ingress_les_3_0x02 gauge
+p2p_ingress_les_3_0x02 1617
+
+# TYPE p2p_ingress_les_3_0x0f gauge
+p2p_ingress_les_3_0x0f 4472
+
+# TYPE p2p_ingress_les_3_0x16 gauge
+p2p_ingress_les_3_0x16 276
+
+# TYPE p2p_peers gauge
+p2p_peers 56
+
+# TYPE p2p_serves gauge
+p2p_serves 281974
+
+# TYPE system_cpu_goroutines gauge
+system_cpu_goroutines 441
+
+# TYPE system_cpu_procload gauge
+system_cpu_procload 11
+
+# TYPE system_cpu_sysload gauge
+system_cpu_sysload 11
+
+# TYPE system_cpu_syswait gauge
+system_cpu_syswait 0
+
+# TYPE system_cpu_threads gauge
+system_cpu_threads 16
+
+# TYPE system_disk_readbytes gauge
+system_disk_readbytes 2499000615
+
+# TYPE system_disk_readcount gauge
+system_disk_readcount 41780761
+
+# TYPE system_disk_readdata gauge
+system_disk_readdata 2499000615
+
+# TYPE system_disk_writebytes gauge
+system_disk_writebytes 4601548095
+
+# TYPE system_disk_writecount gauge
+system_disk_writecount 65433682
+
+# TYPE system_disk_writedata gauge
+system_disk_writedata 4601548095
+
+# TYPE system_memory_allocs gauge
+system_memory_allocs 7273604536
+
+# TYPE system_memory_frees gauge
+system_memory_frees 7269061999
+
+# TYPE system_memory_held gauge
+system_memory_held 1268948992
+
+# TYPE system_memory_pauses gauge
+system_memory_pauses 507343391
+
+# TYPE system_memory_used gauge
+system_memory_used 992694920
+
+# TYPE trie_bloom_add gauge
+trie_bloom_add 0
+
+# TYPE trie_bloom_error gauge
+trie_bloom_error 0
+
+# TYPE trie_bloom_fault gauge
+trie_bloom_fault 0
+
+# TYPE trie_bloom_load gauge
+trie_bloom_load 0
+
+# TYPE trie_bloom_miss gauge
+trie_bloom_miss 0
+
+# TYPE trie_bloom_test gauge
+trie_bloom_test 0
+
+# TYPE trie_memcache_clean_hit gauge
+trie_memcache_clean_hit 795164
+
+# TYPE trie_memcache_clean_miss gauge
+trie_memcache_clean_miss 24
+
+# TYPE trie_memcache_clean_read gauge
+trie_memcache_clean_read 2027212735
+
+# TYPE trie_memcache_clean_write gauge
+trie_memcache_clean_write 5338
+
+# TYPE trie_memcache_commit_nodes gauge
+trie_memcache_commit_nodes 217077
+
+# TYPE trie_memcache_commit_size gauge
+trie_memcache_commit_size 22824349
+
+# TYPE trie_memcache_flush_nodes gauge
+trie_memcache_flush_nodes 0
+
+# TYPE trie_memcache_flush_size gauge
+trie_memcache_flush_size 0
+
+# TYPE trie_memcache_gc_nodes gauge
+trie_memcache_gc_nodes 4149278
+
+# TYPE trie_memcache_gc_size gauge
+trie_memcache_gc_size 1172043776
+
+# TYPE trie_memcache_gc_time_count counter
+trie_memcache_gc_time_count 11
+
+# TYPE trie_memcache_gc_time summary
+trie_memcache_gc_time {quantile="0.50"} 107907
+
+# TYPE trie_memcache_gc_time summary
+trie_memcache_gc_time {quantile="0.95"} 139241
+
+# TYPE trie_memcache_gc_time summary
+trie_memcache_gc_time {quantile="0.99"} 216124
+
+# TYPE txpool_invalid gauge
+txpool_invalid 202
+
+# TYPE txpool_known gauge
+txpool_known 297135
+
+# TYPE txpool_local gauge
+txpool_local 0
+
+# TYPE txpool_pending gauge
+txpool_pending 0
+
+# TYPE txpool_pending_discard gauge
+txpool_pending_discard 0
+
+# TYPE txpool_pending_nofunds gauge
+txpool_pending_nofunds 0
+
+# TYPE txpool_pending_ratelimit gauge
+txpool_pending_ratelimit 0
+
+# TYPE txpool_pending_replace gauge
+txpool_pending_replace 0
+
+# TYPE txpool_queued gauge
+txpool_queued 0
+
+# TYPE txpool_queued_discard gauge
+txpool_queued_discard 0
+
+# TYPE txpool_queued_nofunds gauge
+txpool_queued_nofunds 0
+
+# TYPE txpool_queued_ratelimit gauge
+txpool_queued_ratelimit 0
+
+# TYPE txpool_queued_replace gauge
+txpool_queued_replace 0
+
+# TYPE txpool_underpriced gauge
+txpool_underpriced 0
+
+# TYPE txpool_valid gauge
+txpool_valid 6065
+
