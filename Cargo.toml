@@ -4,7 +4,11 @@ version = "0.1.0"
 authors = ["Charly Molter <charly.molter@gmail.com>"]
 edition = "2018"
 license = "MIT"
+description = "A parser for the prometheus exposition format using nom."
+
 keywords=["prometheus", "observability"]
+[badges]
+travis-ci = { repository = "lahabana/prometheus-exposition-format-rs"}
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
