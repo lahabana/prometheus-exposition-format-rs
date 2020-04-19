@@ -1,5 +1,7 @@
 # Prometheus-exposition-format-rs
 
+[![Build Status](https://travis-ci.org/lahabana/prometheus-exposition-format-rs.svg?branch=master)](https://travis-ci.org/lahabana/prometheus-exposition-format-rs)
+
 A simple and quick Rust lib for reading exposition format.
 This uses [nom](https://lib.rs/crates/nom) in an attempt to make it fast and correct.
 
