@@ -3,7 +3,7 @@ use crate::parser::common::token_parser;
 use assert_approx_eq::assert_approx_eq;
 use nom::branch::alt;
 use nom::bytes::complete::{is_not, tag};
-use nom::character::complete::{char, line_ending, none_of, space1};
+use nom::character::complete::{char, line_ending, none_of, space0, space1};
 use nom::combinator::{map, map_opt, map_res, opt, value};
 #[cfg(test)]
 use nom::error::ErrorKind;
@@ -75,9 +75,14 @@ fn labels_parser(i: &str) -> IResult<&str, HashMap<&str, String>> {
         |l: Vec<(&str, String)>| -> HashMap<&str, String> { l.into_iter().collect() },
     );
 
-    map(opt(delimited(char('{'), list_parser, char('}'))), |v| {
-        v.unwrap_or(HashMap::new())
-    })(i)
+    map(
+        opt(delimited(
+            preceded(space0, char('{')),
+            list_parser,
+            char('}'),
+        )),
+        |v| v.unwrap_or(HashMap::new()),
+    )(i)
 }
 
 /// Parse a metric sample according to the [exposition format](https://prometheus.io/docs/instrumenting/exposition_formats/#text-format-example).
@@ -170,7 +175,11 @@ fn test_labels_parser() {
     let assert_labels = |s, vec: Vec<(&str, &str)>| {
         assert_eq!(labels_parser(s), Ok(("", vec_to_hashmap(vec))));
     };
+    // Empty space doesn't consume
+    assert_eq!(labels_parser(" "), Ok((" ", HashMap::new())));
 
+    // Empty labels with prefixed space
+    assert_eq!(labels_parser(" {}"), Ok(("", HashMap::new())));
     // Empty labels
     assert_eq!(labels_parser("{}"), Ok(("", HashMap::new())));
     // Empty string
@@ -243,7 +252,7 @@ fn assert_sample_parser(
     timestamp: Option<i64>,
 ) {
     let res = parse_sample(s);
-    assert!(res.is_ok(), "{:?}", res);
+    assert!(res.is_ok(), "input: {} res: {:?}", s, res);
     let res = res.unwrap();
     assert_eq!(res.0, left, "Not the same left string");
     assert_sample(res.1, name, labels, value, timestamp);
@@ -269,7 +278,7 @@ fn test_parse_sample_parser() {
         Option::Some(1395066363000i64),
     );
     assert_sample_parser("msdos_file_access_time_seconds{path=\"C:\\\\DIR\\\\FILE.TXT\",error=\"Cannot find file:\\n\\\"FILE.TXT\\\"\"} 1.458255915e9\n", "",
-                    "msdos_file_access_time_seconds", vec![("path", "C:\\DIR\\FILE.TXT"), ("error", "Cannot find file:\n\"FILE.TXT\"")], 1.458255915e9, None);
+                         "msdos_file_access_time_seconds", vec![("path", "C:\\DIR\\FILE.TXT"), ("error", "Cannot find file:\n\"FILE.TXT\"")], 1.458255915e9, None);
     assert_sample_parser(
         "metric_without_timestamp_and_labels 12.47\n",
         "",
@@ -414,6 +423,16 @@ fn test_parse_sample_parser() {
         "rpc_duration_seconds_count",
         vec![],
         2693f64,
+        None,
+    );
+
+    // With space before labels
+    assert_sample_parser(
+        "test {a=\"b\"} 0\n",
+        "",
+        "test",
+        vec![("a", "b")],
+        0f64,
         None,
     );
 
