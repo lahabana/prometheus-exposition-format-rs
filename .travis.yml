@@ -1,3 +1,9 @@
 language: rust
 rust:
-  - stable
+- stable
+deploy:
+  provider: cargo
+  on:
+    tags: true
+  token:
+    secure: icrgnCEUA+9W/9oU5hWC1zop42QN7VqCI+vDw4P/Bg8HBF4GF8qE/vGjN8TwFgMksN56ocu21uTjf3+5yVjUGGuUNEBQG+cwZT5SZu7wcTOHtlSxIsVM6GsxMqyilaJwwW0TLMFvmg6LSLzpGTmfLAIhfy2VmtQUSeeoVkZgqaAjhquSYg5opfuCEmSchBG4jmXljLETSQ3DXYmXpA0LBWhwBWqAuy9uOl/LciecErwC4WSz0akmJNR2XOl3iQ3/wPIQgkDwP3q6ZE9TwTiIHTZnLPmfJahEPDexXX+DryXfpLM9J9yrzla0sF+4HNiiAQZLQvKe/9kRv6vuHH/kgFeJN38uwTK+kbPn/8E/fYusMQt7DN2LRnLS2IH34L0ueZMtShIbAFz5Le/dPKUJAKpB5+v5YnNcRfCR6oVsljlzLXQq9vYryGGH8R1dPLGwNtXWHhkxXG86Y3YGOXLvqsHuWJubOK3VR2GkD0plNycn9GUTduV3sLhsy8PGZs2C48+DSKNeq6KDHuT0g1Op6W8n08nfgDp/llwzuYTjBTPTbaJ9VuPNy47ANsLnTYQ35aW0hTBpmyJejT2gZkJq/JDwPvG5HStXKDKA9my0tk9hM2gFsU/SB22OHm0tA9qjtXFmNsobwPxFsHSQJ3OLd2kWIztqAWDNO/3jVYslJfM=
