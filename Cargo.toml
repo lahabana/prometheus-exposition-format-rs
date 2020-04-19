@@ -1,10 +1,12 @@
 [package]
 name = "prometheus-exposition-format-rs"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Charly Molter <charly.molter@gmail.com>"]
 edition = "2018"
 license = "MIT"
+repository = "https://github.com/lahabana/prometheus-exposition-format-rs"
 description = "A parser for the prometheus exposition format using nom."
+readme = "README.md"
 
 keywords=["prometheus", "observability"]
 [badges]
