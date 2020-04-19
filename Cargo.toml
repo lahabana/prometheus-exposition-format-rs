@@ -3,6 +3,8 @@ name = "prometheus-exposition-format-rs"
 version = "0.1.0"
 authors = ["Charly Molter <charly.molter@gmail.com>"]
 edition = "2018"
+license = "MIT"
+keywords=["prometheus", "observability"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
