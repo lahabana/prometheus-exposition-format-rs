@@ -29,6 +29,7 @@ fn type_parser(i: &str) -> IResult<&str, (&str, MetricType)> {
                 map(tag("gauge"), |_| MetricType::Gauge),
                 map(tag("histogram"), |_| MetricType::Histogram),
                 map(tag("untyped"), |_| MetricType::Untyped),
+                map(tag("summary"), |_| MetricType::Summary),
             )),
         )),
         |x| x.unwrap_or(MetricType::Untyped),
@@ -65,7 +66,6 @@ pub fn comment_parser(i: &str) -> IResult<&str, CommentType> {
 }
 
 // TODO can we make this asserts easier to read/write
-
 #[test]
 fn test_type_parser() {
     assert_eq!(
@@ -86,6 +86,10 @@ fn test_type_parser() {
             "foo",
             ("http_request_duration_seconds", MetricType::Untyped)
         ))
+    );
+    assert_eq!(
+        type_parser("# TYPE http_request_duration_seconds   summary\n"),
+        Ok(("", ("http_request_duration_seconds", MetricType::Summary)))
     );
     assert_eq!(
         type_parser("# TYPE http_request_duration_seconds sometype\n"),

@@ -132,6 +132,34 @@ fn assert_metric(m: &Metric, name: &str, tpe: MetricType, samples: Vec<Sample>) 
 }
 
 #[test]
+fn test_parse_summary() {
+    let res = parse_complete(
+        r#"
+# TYPE chain_account_commits summary
+chain_account_commits {quantile="0.5"} 0
+
+# TYPE chain_account_commits summary
+chain_account_commits {quantile="0.75"} 123
+
+# TYPE chain_account_commits summary
+chain_account_commits {quantile="0.95"} 50
+"#,
+    )
+    .unwrap();
+    assert_eq!(res.len(), 1);
+    assert_metric(
+        &res[0],
+        "chain_account_commits",
+        MetricType::Summary,
+        vec![
+            Sample::new(0f64, Option::None, vec!["quantile", "0.5"]),
+            Sample::new(123f64, Option::None, vec!["quantile", "0.75"]),
+            Sample::new(50f64, Option::None, vec!["quantile", "0.95"]),
+        ],
+    );
+}
+
+#[test]
 fn test_parse_complete() {
     let res = parse_complete(
         r#"
@@ -143,7 +171,7 @@ http_requests_total{method="post",code="400"} 1028 1395066363000
 rpc_duration_seconds_count 2693
 "#,
     )
-        .unwrap();
+    .unwrap();
     assert_eq!(res.len(), 2);
     assert_metric(
         &res[0],
